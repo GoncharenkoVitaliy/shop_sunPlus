@@ -2,7 +2,7 @@
    "product": [
       {
          "id": 1,
-         "image": "/src/components/images/product/sloy_35_844.png",
+         "image": "src/components/images/product/sloy_35_844.png",
          "categories": "Ванны",
          "prace": 130000,
          "popular": "true",

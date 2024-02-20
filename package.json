@@ -3,7 +3,6 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://goncharenkovitaliy.github.io/shop_sunPlus",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
