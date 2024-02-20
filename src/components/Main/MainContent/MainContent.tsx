@@ -1,6 +1,6 @@
+
 import { useEffect, useState } from 'react';
 import styles from './MainContent.module.css';
-import axios from 'axios';
 import Spinner from '../../spinner/Spinner';
 import CardsProduct from '../../CardsProduct/CardsProduct';
 import dbData from '../../../../db.json'
@@ -10,7 +10,7 @@ export interface ISetDate {
    image: string,
    categories: string,
    prace: number,
-   popular: boolean,
+   popular: boolean | string,
    title: string,
    description: {
       discOn?: string,
@@ -38,23 +38,24 @@ const MainContent = () => {
          // setLoading(false);
          // console.log(err);
          // return null;
-   //    }
-   // };
-
-   useEffect(() => {
-         // getUsers();
-
-      // Выполняем преобразование JSON внутри useEffect или других методов жизненного цикла
-    const productsArray = dbData.product;
-      setData(productsArray);
-   }, []);
+         //    }
+         // };
+         
+         useEffect(() => {
+            // getUsers();
+            
+            setLoading(false);
+            // Выполняем преобразование JSON внутри useEffect или других методов жизненного цикла
+            const productsArray = dbData.product;
+            setData(productsArray);
+         }, []);
 
    return (
       <section className={styles.main__content}>
          <h2 className="hidden">Товары</h2>
          {loading
             ? <Spinner/>
-            :  <ul className={styles.content__product}>
+            : <ul className={styles.content__product}>
                   {data.map((d) => {
                      return (
                         <CardsProduct d={d}  key={d.id}/>

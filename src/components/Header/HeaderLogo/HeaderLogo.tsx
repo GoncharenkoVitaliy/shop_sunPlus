@@ -1,8 +1,6 @@
 import styles from './HeaderLogo.module.css';
 import kapliaLogo from '../../images/header/kaplia-logo.png';
 
-import React from 'react'
-
 const HeaderLogo = () => {
    return (
       <div className={styles.headerLogo}>

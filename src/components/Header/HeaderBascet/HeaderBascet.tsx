@@ -1,8 +1,6 @@
 import styles from './HeaderBascet.module.css';
 import bascet from '../../images/header/bascet.png';
 
-import React from 'react'
-
 const HeaderBascet = () => {
    return (
       <div className={styles.header__basket}>
