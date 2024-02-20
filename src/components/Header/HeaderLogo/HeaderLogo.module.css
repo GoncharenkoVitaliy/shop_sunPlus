@@ -1,0 +1,50 @@
+.headerLogo {
+   width: 236px;
+   display: flex;
+   justify-content: space-between;
+   height: 100%;
+   & .logoLink {
+      display: flex;
+      & .logoWrapImg{
+         position: relative;
+         z-index: 5;
+         width: 60px;
+         & .logoImg {
+            position: absolute;
+            width: 42px;
+         }
+         & .one{
+            transform: translate(0, -50%);
+            top: 50%;
+            left: 0px;
+         }
+         & .two{
+            transform: rotate(90deg);
+            top: 54%;
+            left: 28px;
+         }
+         & .three{
+            transform: rotate(90deg);
+            top: 17px;
+            left: 25px;
+         }
+      }
+      & .logoTextBlock{
+         display: flex;
+         flex-direction: column;
+         align-items: end;
+         justify-content: center;
+         & .logoTitle {
+            text-wrap: nowrap;
+            font-family: var(--Platino);
+            font-size: 2.25rem;/* 36px */
+            line-height: 1.2;
+            font-weight: 700;
+         }
+         & .logoSubtitle {
+            font-size: .75rem;
+            font-weight: 400;
+         }
+      }
+   }
+}

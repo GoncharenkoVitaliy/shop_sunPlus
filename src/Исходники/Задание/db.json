@@ -1,0 +1,444 @@
+// import imgProduct1 from '../components/images/product/akril_205x300_pc_836.png';
+// import imgProduct2 from '../components/images/product/d9d9cefd_2e57_11de_8196_001bfcdd9685_81x220_sm.jpg_987.png';
+// import imgProduct3 from '../components/images/product/du_180x300_pc_988.png';
+// import imgProduct4 from '../components/images/product/sloy_33_840.png';
+// import imgProduct5 from '../components/images/product/sloy_35_844.png';
+// import imgProduct6 from '../components/images/product/sloy_36_981.png';
+// import imgProduct7 from '../components/images/product/sloy_37_985.png';
+
+// {
+//    'product': [
+//       {
+//          id: 1,
+//          image: './src/components/images/product/sloy_35_844.png',
+//          categories: 'Ванны',
+//          prace: '130000',
+//          title: 'Чугунные ванны',
+//       },
+//       {
+//          id: 2,
+//          image: './src/components/images/product/sloy_35_844.png',
+//          categories: 'Ванны',
+//          prace: '130000',
+//          title: 'Прямоугольные',
+//       },
+//       {
+//          id: 3,
+//          image: './src/components/images/product/sloy_35_844.png',
+//          categories: 'Ванны',
+//          prace: '130000',
+//          title: 'Угловые симметричные',
+//       },
+//       {
+//          id: 4,
+//          image: './src/components/images/product/sloy_35_844.png',
+//          categories: 'Ванны',
+//          prace: '130000',
+//          title: 'Угловые ассиметричные',
+//       },
+//       {
+//          id: 5,
+//          image: './src/components/images/product/sloy_35_844.png',
+//          categories: 'Ванны',
+//          prace: '130000',
+//          title: 'Других форм',
+//       },
+//       {
+//          id: 6,
+//          image: './src/components/images/product/sloy_35_844.png',
+//          categories: 'Ванны',
+//          title: 'Гидромассажные ванны',
+//          prace: '130000',
+//          description: 'Круглые и овальные'
+//       },
+//       {
+//          id: 7,
+//          image: './src/components/images/product/sloy_35_844.png',
+//          categories: 'Ванны',
+//          prace: '130000',
+//          title: 'Круглые и овальные'
+//       },
+//       {
+//          id: 8,
+//          image: './src/components/images/product/du_180x300_pc_988.png',
+//          categories: 'Душевая кабина',
+//          prace: '130000',
+//          title: 'Полукруглые душевые уголки',
+//       },
+//       {
+//          id: 9,
+//          image: './src/components/images/product/du_180x300_pc_988.png',
+//          categories: 'Душевая кабина',
+//          prace: '130000',
+//          title: 'Прямоугольные душевые уголки',
+//       },
+//       {
+//          id: 10,
+//          image: './src/components/images/product/du_180x300_pc_988.png',
+//          categories: 'Душевая кабина',
+//          prace: '130000',
+//          title: 'Душевые двери',
+//       },
+//       {
+//          id: 11,
+//          image: './src/components/images/product/sloy_36_981.png',
+//          categories: 'Мебель для ванной',
+//          prace: '130000',
+//          title: 'Комплекты',
+//       },
+//       {
+//          id: 12,
+//          image: './src/components/images/product/sloy_36_981.png',
+//          categories: 'Мебель для ванной',
+//          prace: '130000',
+//          title: 'Модульная мебель',
+//       },
+//       {
+//          id: 13,
+//          image: './src/components/images/product/sloy_36_981.png',
+//          categories: 'Мебель для ванной',
+//          prace: '130000',
+//          title: 'Пеналы',
+//       },
+//       {
+//          id: 14,
+//          image: './src/components/images/product/d9d9cefd_2e57_11de_8196_001bfcdd9685_81x220_sm.jpg_987.png',
+//          categories: 'Стойка душевая',
+//          prace: '130000',
+//          title: 'Душевые панели',
+//       },
+//       {
+//          id: 15,
+//          image: './src/components/images/product/sloy_37_985.png',
+//          categories: 'Стойка душевая',
+//          prace: '130000',
+//          title: 'Тропический душ',
+//       },
+//       {
+//          id: 16,
+//          image: './src/components/images/product/d9d9cefd_2e57_11de_8196_001bfcdd9685_81x220_sm.jpg_987.png',
+//          categories: 'Стойка душевая',
+//          prace: '130000',
+//          title: 'Системы скрытого монтажа',
+//       },
+//       {
+//          id: 17,
+//          image: './src/components/images/product/akril_205x300_pc_836.png',
+//          categories: 'Душевой поддон',
+//          prace: '130000',
+//          title: 'Полукруглый',
+//       },
+//       {
+//          id: 18,
+//          image: './src/components/images/product/sloy_33_840.png',
+//          categories: 'Душевой поддон',
+//          prace: '130000',
+//          title: 'Полукруглый',
+//       },
+//       {
+//          id: 19,
+//          image: './src/components/images/product/sloy_33_840.png',
+//          categories: 'Душевой поддон',
+//          prace: '130000',
+//          title: 'Полукруглый',
+//       },
+//       {
+//          id: 20,
+//          image: './src/components/images/product/akril_205x300_pc_836.png',
+//          categories: 'Душевой поддон',
+//          prace: '130000',
+//          title: 'Полукруглый',
+//       },
+//    ]
+// }
+// {
+//    'product': [
+//       {
+//          id: 1,
+//          image: 'imgProduct5',
+//          categories: 'Ванны',
+//          prace: '130000',
+//          title: 'Чугунные ванны',
+//       },
+//       {
+//          id: 2,
+//          image: 'imgProduct5',
+//          categories: 'Ванны',
+//          prace: '130000',
+//          title: 'Прямоугольные',
+//       },
+//       {
+//          id: 3,
+//          image: 'imgProduct5',
+//          categories: 'Ванны',
+//          prace: '130000',
+//          title: 'Угловые симметричные',
+//       },
+//       {
+//          id: 4,
+//          image: 'imgProduct5',
+//          categories: 'Ванны',
+//          prace: '130000',
+//          title: 'Угловые ассиметричные',
+//       },
+//       {
+//          id: 5,
+//          image: 'imgProduct5',
+//          categories: 'Ванны',
+//          prace: '130000',
+//          title: 'Других форм',
+//       },
+//       {
+//          id: 6,
+//          image: 'imgProduct5',
+//          categories: 'Ванны',
+//          title: 'Гидромассажные ванны',
+//          prace: '130000',
+//          description: 'Круглые и овальные'
+//       },
+//       {
+//          id: 7,
+//          image: 'imgProduct5',
+//          categories: 'Ванны',
+//          prace: '130000',
+//          title: 'Круглые и овальные'
+//       },
+//       {
+//          id: 8,
+//          image: 'imgProduct3',
+//          categories: 'Душевая кабина',
+//          prace: '130000',
+//          title: 'Полукруглые душевые уголки',
+//       },
+//       {
+//          id: 9,
+//          image: 'imgProduct3',
+//          categories: 'Душевая кабина',
+//          prace: '130000',
+//          title: 'Прямоугольные душевые уголки',
+//       },
+//       {
+//          id: 10,
+//          image: 'imgProduct3',
+//          categories: 'Душевая кабина',
+//          prace: '130000',
+//          title: 'Душевые двери',
+//       },
+//       {
+//          id: 11,
+//          image: 'imgProduct6',
+//          categories: 'Мебель для ванной',
+//          prace: '130000',
+//          title: 'Комплекты',
+//       },
+//       {
+//          id: 12,
+//          image: 'imgProduct6',
+//          categories: 'Мебель для ванной',
+//          prace: '130000',
+//          title: 'Модульная мебель',
+//       },
+//       {
+//          id: 13,
+//          image: 'imgProduct6',
+//          categories: 'Мебель для ванной',
+//          prace: '130000',
+//          title: 'Пеналы',
+//       },
+//       {
+//          id: 14,
+//          image: 'imgProduct2',
+//          categories: 'Стойка душевая',
+//          prace: '130000',
+//          title: 'Душевые панели',
+//       },
+//       {
+//          id: 15,
+//          image: 'imgProduct7',
+//          categories: 'Стойка душевая',
+//          prace: '130000',
+//          title: 'Тропический душ',
+//       },
+//       {
+//          id: 16,
+//          image: 'imgProduct2',
+//          categories: 'Стойка душевая',
+//          prace: '130000',
+//          title: 'Системы скрытого монтажа',
+//       },
+//       {
+//          id: 17,
+//          image: 'imgProduct1',
+//          categories: 'Душевой поддон',
+//          prace: '130000',
+//          title: 'Полукруглый',
+//       },
+//       {
+//          id: 18,
+//          image: 'imgProduct4',
+//          categories: 'Душевой поддон',
+//          prace: '130000',
+//          title: 'Полукруглый',
+//       },
+//       {
+//          id: 19,
+//          image: 'imgProduct4',
+//          categories: 'Душевой поддон',
+//          prace: '130000',
+//          title: 'Полукруглый',
+//       },
+//       {
+//          id: 20,
+//          image: 'imgProduct1',
+//          categories: 'Душевой поддон',
+//          prace: '130000',
+//          title: 'Полукруглый',
+//       },
+//    ]
+// }
+
+{
+   "product": [
+      {
+         "id": 1,
+         "image": "./src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "title": "Чугунные ванны"
+      },
+      {
+         "id": 2,
+         "image": "./src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "title": "Прямоугольные"
+      },
+      {
+         "id": 3,
+         "image": "./src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "title": "Угловые симметричные"
+      },
+      {
+         "id": 4,
+         "image": "./src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "title": "Угловые ассиметричные"
+      },
+      {
+         "id": 5,
+         "image": "./src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "title": "Других форм"
+      },
+      {
+         "id": 6,
+         "image": "./src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "title": "Гидромассажные ванны",
+         "prace": 130000,
+         "description": "Круглые и овальные"
+      },
+      {
+         "id": 7,
+         "image": "./src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "title": "Круглые и овальные"
+      },
+      {
+         "id": 8,
+         "image": "./src/components/images/product/du_180x300_pc_988.png",
+         "categories": "Душевая кабина",
+         "prace": 130000,
+         "title": "Полукруглые душевые уголки"
+      },
+      {
+         "id": 9,
+         "image": "./src/components/images/product/du_180x300_pc_988.png",
+         "categories": "Душевая кабина",
+         "prace": 130000,
+         "title": "Прямоугольные душевые уголки"
+      },
+      {
+         "id": 10,
+         "image": "./src/components/images/product/du_180x300_pc_988.png",
+         "categories": "Душевая кабина",
+         "prace": 130000,
+         "title": "Душевые двери"
+      },
+      {
+         "id": 11,
+         "image": "./src/components/images/product/sloy_36_981.png",
+         "categories": "Мебель для ванной",
+         "prace": 130000,
+         "title": "Комплекты"
+      },
+      {
+         "id": 12,
+         "image": "./src/components/images/product/sloy_36_981.png",
+         "categories": "Мебель для ванной",
+         "prace": 130000,
+         "title": "Модульная мебель"
+      },
+      {
+         "id": 13,
+         "image": "./src/components/images/product/sloy_36_981.png",
+         "categories": "Мебель для ванной",
+         "prace": 130000,
+         "title": "Пеналы"
+      },
+      {
+         "id": 14,
+         "image": "./src/components/images/product/d9d9cefd_2e57_11de_8196_001bfcdd9685_81x220_sm.jpg_987.png",
+         "categories": "Стойка душевая",
+         "prace": 130000,
+         "title": "Душевые панели"
+      },
+      {
+         "id": 15,
+         "image": "./src/components/images/product/sloy_37_985.png",
+         "categories": "Стойка душевая",
+         "prace": 130000,
+         "title": "Тропический душ"
+      },
+      {
+         "id": 16,
+         "image": "./src/components/images/product/d9d9cefd_2e57_11de_8196_001bfcdd9685_81x220_sm.jpg_987.png",
+         "categories": "Стойка душевая",
+         "prace": 130000,
+         "title": "Системы скрытого монтажа"
+      },
+      {
+         "id": 17,
+         "image": "./src/components/images/product/akril_205x300_pc_836.png",
+         "categories": "Душевой поддон",
+         "prace": 130000,
+         "title": "Полукруглый"
+      },
+      {
+         "id": 18,
+         "image": "./src/components/images/product/sloy_33_840.png",
+         "categories": "Душевой поддон",
+         "prace": 130000,
+         "title": "Полукруглый"
+      },
+      {
+         "id": 19,
+         "image": "./src/components/images/product/sloy_33_840.png",
+         "categories": "Душевой поддон",
+         "prace": 130000,
+         "title": "Полукруглый"
+      },
+      {
+         "id": 20,
+         "image": "./src/components/images/product/akril_205x300_pc_836.png",
+         "categories": "Душевой поддон",
+         "prace": 130000,
+         "title": "Полукруглый"
+      }
+   ]
+}

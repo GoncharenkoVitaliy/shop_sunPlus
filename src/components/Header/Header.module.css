@@ -1,0 +1,37 @@
+.container{
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+.header{
+   color:var(--white);
+   width: 100vw;
+   background-color: var(--header);
+   position: relative;
+   & .headerImage {
+      width: 100%;
+      height: 100%;
+      background: url("../images/header/brizgi_ob.webp") 0 0/100% no-repeat, url('../images/header/sloy_32_824.png') 1200px 0px/50px no-repeat, url('../images/header/listya_kopiya_9_802.png') 1700px 70px/50px no-repeat, url('../images/header/listya_kopiya_8_782.png') 1800px 0/90px no-repeat, url('../images/header/listya_kopiya_6_812.png') 100px 0/200px no-repeat, url('../images/header/listya_kopiya_5_821.png') 700px 0/130px no-repeat;
+   }
+   & .headerDecor{
+      position: relative;
+      z-index: 9;
+      & .headerDecorOne {
+         background: url("../images/header/voda_kopiya_617.png") 0 100%/100% no-repeat;
+         position: absolute;
+         top: -25px;
+         left: -70px;
+         width: 50%;
+         height: 150px;
+      }
+      & .headerDecorTwo {
+         background: url("../images/header/voda_kopiya_617.png") 0 100%/100% no-repeat;
+         transform: rotate(180deg);
+         position:absolute;
+         width: 50%;
+         height: 150px;
+         top: -40px;
+         right: -70px;
+      }
+   }
+}

@@ -1,68 +1,76 @@
+@font-face {
+	font-family: 'Verdana';
+	src: url('./components/font-family/Verdana/fonts/verdana.eot'); /* IE 9 Compatibility Mode */
+	src: url('./components/font-family/Verdana/fonts/verdana.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./components/font-family/Verdana/fonts/verdana.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./components/font-family/Verdana/fonts/verdana.woff') format('woff'), /*Firefox >= 3.6, any other modern */
+		url('./components/font-family/Verdana/fonts/verdana.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./components/font-family/Verdana/fonts/verdana.svg#palatino_linotype') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+   font-family: 'Palatino';
+   src: url('./components/font-family/Palatino-Linotype/fonts/palatino_linotype.eot'); /* IE 9 Compatibility Mode */
+   src: url('./components/font-family/Palatino-Linotype/fonts/palatino_linotype.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+      url('./components/font-family/Palatino-Linotype/fonts/palatino_linotype.woff2') format('woff2'), /* Super Modern Browsers */
+      url('./components/font-family/Palatino-Linotype/fonts/palatino_linotype.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+      url('./components/font-family/Palatino-Linotype/fonts/palatino_linotype.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('./components/font-family/Palatino-Linotype/fonts/palatino_linotype.svg#palatino_linotype') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+*,*::before,*::after{box-sizing:border-box;}
+ul[class],ol[class],menu[class]{padding:0;}
+body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0;}
+body{margin:0;min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed;line-height:1.5;}
+body,html{height:100%;}
+ul[class],ol[class],menu[class]{list-style: none;}
+a:not([class]){text-decoration-skip-ink:auto;}
+a{text-decoration:none;color:inherit;}
+img{max-width:100%;display:block;}
+article > * + * {margin-top:1em;}
+input,button,textarea,select{font:inherit;}
+
+/* ====================== */
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --dark-color: rgb(67, 63, 63);
+  --light-color: #ffffff;
+  --header: #00aed9;
+  --navbar: #00aed972;
+  --white: rgb(255, 255, 255);
+  --black: #434343;
+  --text-shadow: 0px 1px 5px rgba(0,107,133,0.6);
+  --background-card: rgba(249, 249, 249, 0.874);
+  --darkBackgroundCard: rgba(67, 63, 63, 0.786);
+  --gray: #00000027;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  --radius: 3px;
+  --Platino: 'Palatino Linotype', "Arial", sans-serif;
+  --Verdana: "Verdana", "Arial", sans-serif;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: var(--Verdana);
+  font-weight: 400;
+  font-size: 14px;
+  color-scheme: light;
+  background-color: var(--light-color);
+  color: var(--dark);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* Дополнительные стили для темной цветовой схемы */
+@media (prefers-color-scheme: dark) {
+  body {
+    color-scheme: light dark;
+    background-color: var(--dark-color);
+    color: var(--white);
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+}
+/* ============================================ */
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.hidden{
+  visibility: hidden;
+  width: 0;
+  height: 0;
 }

@@ -1,0 +1,8 @@
+& .main__content{
+   flex: 3;
+   & .content__product{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+}

@@ -1,0 +1,292 @@
+{
+   "product": [
+      {
+         "id": 1,
+         "image": "src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Чугунные ванны",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные",
+            "discSix": "Круглые и овальные",
+            "discSeven": "Круглые и овальные",
+            "discEight": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 2,
+         "image": "src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "popular": "false",
+         "title": "Прямоугольные",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм"
+         }
+      },
+      {
+         "id": 3,
+         "image": "src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Угловые симметричные",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные"
+         }
+      },
+      {
+         "id": 4,
+         "image": "src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Угловые ассиметричные",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные"
+         }
+      },
+      {
+         "id": 5,
+         "image": "src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "popular": "false",
+         "title": "Других форм",
+         "description": {
+            "discOn": "Прямоугольные"
+         }
+      },
+      {
+         "id": 6,
+         "image": "src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Гидромассажные ванны",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 7,
+         "image": "src/components/images/product/sloy_35_844.png",
+         "categories": "Ванны",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Круглые и овальные",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 8,
+         "image": "src/components/images/product/du_180x300_pc_988.png",
+         "categories": "Душевая кабина",
+         "prace": 130000,
+         "popular": "false",
+         "title": "Полукруглые душевые уголки",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 9,
+         "image": "src/components/images/product/du_180x300_pc_988.png",
+         "categories": "Душевая кабина",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Прямоугольные душевые уголки",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 10,
+         "image": "src/components/images/product/du_180x300_pc_988.png",
+         "categories": "Душевая кабина",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Душевые двери",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 11,
+         "image": "src/components/images/product/sloy_36_981.png",
+         "categories": "Мебель для ванной",
+         "prace": 130000,
+         "popular": "false",
+         "title": "Комплекты",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 12,
+         "image": "src/components/images/product/sloy_36_981.png",
+         "categories": "Мебель для ванной",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Модульная мебель",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 13,
+         "image": "src/components/images/product/sloy_36_981.png",
+         "categories": "Мебель для ванной",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Пеналы",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 14,
+         "image": "src/components/images/product/d9d9cefd_2e57_11de_8196_001bfcdd9685_81x220_sm.jpg_987.png",
+         "categories": "Стойка душевая",
+         "prace": 130000,
+         "popular": "false",
+         "title": "Душевые панели",
+         "description": {
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 15,
+         "image": "src/components/images/product/sloy_37_985.png",
+         "categories": "Стойка душевая",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Тропический душ",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 16,
+         "image": "src/components/images/product/d9d9cefd_2e57_11de_8196_001bfcdd9685_81x220_sm.jpg_987.png",
+         "categories": "Стойка душевая",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Системы скрытого монтажа",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 17,
+         "image": "src/components/images/product/akril_205x300_pc_836.png",
+         "categories": "Душевой поддон",
+         "prace": 130000,
+         "popular": "false",
+         "title": "Полукруглый",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 18,
+         "image": "src/components/images/product/sloy_33_840.png",
+         "categories": "Душевой поддон",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Полукруглый",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 19,
+         "image": "src/components/images/product/sloy_33_840.png",
+         "categories": "Душевой поддон",
+         "prace": 130000,
+         "popular": "true",
+         "title": "Полукруглый",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 20,
+         "image": "src/components/images/product/akril_205x300_pc_836.png",
+         "categories": "Душевой поддон",
+         "prace": 130000,
+         "popular": "false",
+         "title": "Полукруглый",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      }
+   ]
+}

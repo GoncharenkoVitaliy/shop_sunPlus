@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Palatino Linotype';
+	src: url('../fonts/palatino_linotype.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/palatino_linotype.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/palatino_linotype.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/palatino_linotype.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/palatino_linotype.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/palatino_linotype.svg#palatino_linotype') format('svg'); /* Chrome < 4, Legacy iOS */
+}

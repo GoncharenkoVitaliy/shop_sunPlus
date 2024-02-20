@@ -1,0 +1,20 @@
+.header__basket{
+   & .basket__link{
+      width: 160px;
+      cursor: pointer;
+      padding: 10px 0 10px 10px;
+      & .basket__image{
+         float: right;
+         width: 56px;
+         height: 56px;
+         padding: 10px;
+      }
+      & .basket__title{
+         font-size: 1.125rem; /* 18px */
+      }
+      & .basket__count, .basket__summa{}
+   }
+   & .basket__link:hover{
+      text-decoration: underline;
+   }
+}

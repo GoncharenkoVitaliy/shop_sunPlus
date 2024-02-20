@@ -1,0 +1,40 @@
+.content__card{
+   margin-top: 20px;
+   background-color: var(--background-card);
+   width: 220px;
+   height: 298px;
+   box-shadow: 0px 0px 0px 1px #cde3e8;
+   border-radius: var(--radius);
+   z-index: 50;
+   padding: 10px 10px 10px 20px;
+   overflow: hidden;
+   cursor: pointer;
+   & .card__title{
+      line-height: 1.2;
+      font-weight: 700;
+      text-decoration: underline;
+      padding-bottom: 10px;
+   }
+   & .card__image{
+         margin: 0 auto;
+         padding-bottom: 10px;
+   }
+   & .card__desc{
+      font-weight: 700;
+      & .card__elem{
+         font-size: 12px;
+         line-height: 24px;
+         list-style-type: disc;
+      }
+      & .card__elem:hover{
+         text-decoration: underline;
+      }
+   }
+}
+@media (prefers-color-scheme: dark) {
+   .content__card {
+     color-scheme: light dark;
+     background-color: var(--darkBackgroundCard);
+     color: var(--white);
+   }
+ }

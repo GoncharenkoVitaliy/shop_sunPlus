@@ -1,0 +1,20 @@
+.headerAddress{
+   line-height: 1.5rem; /*24px*/
+   font-weight: 400;
+   text-shadow: var(--text-shadow);
+   color: var(--white);
+   display: flex;
+   flex-direction: column;
+   background-color: var(--bottom);
+   padding: 10px;
+   text-align: left;
+   & .address__link{
+      font-size: 1.125rem;
+   }
+   & .address__link > span {
+      font-size: .75rem; /* 12px*/
+   }
+   & .address__link:hover{
+      text-decoration: underline;
+   }
+}
