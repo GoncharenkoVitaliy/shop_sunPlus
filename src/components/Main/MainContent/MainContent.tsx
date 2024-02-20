@@ -52,7 +52,7 @@ const MainContent = () => {
 
    return (
       <section className={styles.main__content}>
-         <h2 className="hidden">Товары</h2>
+         <h2 className="hidden">Карточки товаров</h2>
          {loading
             ? <Spinner/>
             : <ul className={styles.content__product}>
