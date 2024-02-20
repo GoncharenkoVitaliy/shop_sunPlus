@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import styles from './MainContent.module.css';
 import Spinner from '../../spinner/Spinner';
 import CardsProduct from '../../CardsProduct/CardsProduct';
-// import dbData from '../../../../db.json'
 import axios from 'axios';
 
 export interface ISetDate {
@@ -35,7 +34,6 @@ const MainContent = () => {
          setData(res.data);
       }
       catch(err) {
-         // Error handling
          setLoading(false);
          console.log(err);
          return null;
@@ -44,11 +42,6 @@ const MainContent = () => {
          
          useEffect(() => {
             getUsers();
-            
-            // setLoading(false);
-            // Выполняем преобразование JSON внутри useEffect или других методов жизненного цикла
-            // const productsArray = dbData.product;
-            // setData(productsArray);
          }, []);
 
    return (

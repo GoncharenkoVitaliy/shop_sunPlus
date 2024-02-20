@@ -2,7 +2,7 @@
    "product": [
       {
          "id": 1,
-         "image": "src/components/images/product/sloy_35_844.png",
+         "image": "https://cdn.vseinstrumenti.ru/images/goods/santehnicheskoe-oborudovanie/sanfayans/2225620/1200x800/54749890.jpg",
          "categories": "Ванны",
          "prace": 130000,
          "popular": "true",
@@ -20,7 +20,7 @@
       },
       {
          "id": 2,
-         "image": "src/components/images/product/sloy_35_844.png",
+         "image": "https://megavanna.ru/upload/iblock/750/750babd9d704024e9faa3ae87827c46d.jpg",
          "categories": "Ванны",
          "prace": 130000,
          "popular": "false",
