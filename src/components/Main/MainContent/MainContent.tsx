@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react';
 import styles from './MainContent.module.css';
 import Spinner from '../../spinner/Spinner';
 import CardsProduct from '../../CardsProduct/CardsProduct';
-import dbData from '../../../../db.json'
+// import dbData from '../../../../db.json'
+import axios from 'axios';
 
 export interface ISetDate {
    id: number,
@@ -28,26 +29,26 @@ const MainContent = () => {
    const [data, setData] = useState<ISetDate[]>([]); 
    const [loading, setLoading] = useState(false);
 
-   // const getUsers = async() => {
-      // try{
-         // const res = await axios.get("http://localhost:3031/product");
-         // setData(res.data);
-      // }
-      // catch(err) {
+   const getUsers = async() => {
+      try{
+         const res = await axios.get("http://localhost:3031/product");
+         setData(res.data);
+      }
+      catch(err) {
          // Error handling
-         // setLoading(false);
-         // console.log(err);
-         // return null;
-         //    }
-         // };
+         setLoading(false);
+         console.log(err);
+         return null;
+            }
+         };
          
          useEffect(() => {
-            // getUsers();
+            getUsers();
             
-            setLoading(false);
+            // setLoading(false);
             // Выполняем преобразование JSON внутри useEffect или других методов жизненного цикла
-            const productsArray = dbData.product;
-            setData(productsArray);
+            // const productsArray = dbData.product;
+            // setData(productsArray);
          }, []);
 
    return (
