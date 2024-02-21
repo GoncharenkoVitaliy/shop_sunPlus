@@ -33,13 +33,13 @@ const MainContent = () => {
       try{
          // const res = await axios.get("http://localhost:3031/product");
 
-         const response = await fetch('./db.json');
+         const response = await fetch('db.json');
          const res = await response.json();
+         // res.products.map((product) => {
+         //    console.log(product)
+         // });
 
-         console.log(`response: ${response}`);
-         console.log(`res: ${res.product}`);
-
-         setData(res.product);
+         setData(res.products);
          setLoading(false);
       }
       catch(error) {
