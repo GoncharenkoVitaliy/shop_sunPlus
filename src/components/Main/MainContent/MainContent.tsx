@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import styles from './MainContent.module.css';
 import Spinner from '../../spinner/Spinner';
 import CardsProduct from '../../CardsProduct/CardsProduct';
-// import db from '../../../../db.json';
 // import axios from 'axios';
 
 export interface ISetDate {
@@ -33,7 +32,7 @@ const MainContent = () => {
       try{
          // const res = await axios.get("http://localhost:3031/product");
 
-         const response = await fetch('./db.json');
+         const response = await fetch('/db.json');
          const res = await response.json();
 
          setData(res.products);
