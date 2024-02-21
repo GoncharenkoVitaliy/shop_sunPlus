@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react';
 import styles from './MainContent.module.css';
 import Spinner from '../../spinner/Spinner';
 import CardsProduct from '../../CardsProduct/CardsProduct';
-import axios from 'axios';
+// import db from '../../../../db.json';
+// import axios from 'axios';
 
 export interface ISetDate {
    id: number,
@@ -26,23 +27,31 @@ export interface ISetDate {
 
 const MainContent = () => {
    const [data, setData] = useState<ISetDate[]>([]); 
-   const [loading, setLoading] = useState(false);
+   const [loading, setLoading] = useState(true);
 
    const getUsers = async() => {
       try{
-         const res = await axios.get("http://localhost:3031/product");
-         setData(res.data);
-      }
-      catch(err) {
+         // const res = await axios.get("http://localhost:3031/product");
+
+         const response = await fetch('./db.json');
+         const res = await response.json();
+
+         console.log(`response: ${response}`);
+         console.log(`res: ${res.product}`);
+
+         setData(res.product);
          setLoading(false);
-         console.log(err);
+      }
+      catch(error) {
+         setLoading(false);
+         console.error('Ошибка при загрузке данных:', error);
          return null;
-            }
-         };
+      }
+   };
          
-         useEffect(() => {
-            getUsers();
-         }, []);
+   useEffect(() => {
+      getUsers();
+   }, []);
 
    return (
       <section className={styles.main__content}>
