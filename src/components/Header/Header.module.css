@@ -1,11 +1,6 @@
-.container{
-   max-width: 960px;
-   margin: 0 auto;
-}
-
 .header{
    color:var(--white);
-   width: 100vw;
+   min-width: 100vw;
    background-color: var(--header);
    position: relative;
    & .headerImage {
@@ -34,4 +29,7 @@
          right: -70px;
       }
    }
+}
+@media(max-width: 1100px){
+   
 }

@@ -5,7 +5,7 @@ import HeaderBascet from '../HeaderBascet/HeaderBascet';
 
 const HeaderWrapper = () => {
    return (
-      <div className={`${styles.headerWrapper} ${styles.container}`}>
+      <div className={`${styles.headerWrapper} container`}>
          <HeaderLogo/>
          <HeaderAddress/>
          <HeaderBascet/>

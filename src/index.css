@@ -35,6 +35,7 @@ input,button,textarea,select{font:inherit;}
   --light-color: #ffffff;
   --header: #00aed9;
   --navbar: #00aed972;
+  --footer: #00aed996;
   --white: rgb(255, 255, 255);
   --black: #434343;
   --text-shadow: 0px 1px 5px rgba(0,107,133,0.6);

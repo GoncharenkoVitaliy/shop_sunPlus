@@ -11,7 +11,7 @@ const Header = () => {
                <HeaderWrapper />
                <HeaderNav/>
             </div>
-            <div className={`${styles.headerDecor} ${styles.container}`}>
+            <div className={`${styles.headerDecor} container`}>
                <p className={styles.headerDecorOne}></p>
                <p className={styles.headerDecorTwo}></p>
             </div>

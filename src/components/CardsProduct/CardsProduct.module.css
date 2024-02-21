@@ -18,6 +18,7 @@
    & .card__image{
          margin: 0 auto;
          padding-bottom: 10px;
+         height: 50%;
    }
    & .card__desc{
       font-weight: 700;
