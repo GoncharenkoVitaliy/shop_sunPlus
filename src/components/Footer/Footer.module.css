@@ -1,7 +1,11 @@
 .footer {
+   border: 1px solid blue;
+   /* margin: 0 auto; */
    margin-top: 40px;
    height: 120px;
+   min-width: 100vw;
    background: url("../images/header/brizgi_ob.webp") 0 0/100% no-repeat, var(--header);
+   overflow: hidden;
    & .wrapper {
       height: 100%;
       display: flex;
@@ -9,8 +13,9 @@
       align-items: center;
       background: var(--footer);
       & .copyright{
-         width: 250px;
+         width: 220px;
          font-size: 0.857rem;
+         border: 1px solid red;
       }
    }
 }

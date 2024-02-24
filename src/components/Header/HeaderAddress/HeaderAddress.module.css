@@ -5,7 +5,7 @@
    color: var(--white);
    display: flex;
    flex-direction: column;
-   background-color: var(--bottom);
+   background-color: var(--navbar);
    padding: 10px;
    text-align: left;
    & .address__link{
