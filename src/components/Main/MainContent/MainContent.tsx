@@ -53,12 +53,12 @@ const MainContent = () => {
          {loading
             ? <Spinner/>
             : <ul className={styles.content__product}>
-                  {data.map((d) => {
-                     return (
-                        <CardsProduct d={d}  key={d.id}/>
-                     )
-                  })}
-               </ul>
+               {data.map((d) => {
+                  return (
+                     <CardsProduct d={d}  key={d.id}/>
+                  )
+               })}
+            </ul>
          }
       </section>
    )
