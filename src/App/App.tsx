@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <Header/>
         <Routes>
-            <Route index element={<Main />} />
+            <Route index path="/shop_sunplus" element={<Main />} />
             <Route path="/shop_sunplus/about" element={<About />} />
             <Route path="/shop_sunplus/paymentDelivery" element={<PaymentDelivery />} />
             <Route path="/shop_sunplus/articles" element={<Articles />} />

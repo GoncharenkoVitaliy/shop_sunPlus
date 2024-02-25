@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const HeaderLogo = () => {
    return (
       <div className={styles.headerLogo}>
-            <Link to="/" className={styles.logoLink}>
+            <Link to="/shop_sunplus" className={styles.logoLink}>
                <div className={styles.logoWrapImg}>
                   <p className={`${styles.logoImg} ${styles.one}`}>
                      <img src={kapliaLogo} alt="капли-логотип"/>

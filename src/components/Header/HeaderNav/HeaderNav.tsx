@@ -10,7 +10,7 @@ const HeaderNav = () => {
          <nav className={`${styles.header__navbar} container`}>
             <ol className={`${styles.navbar__list} ${active ? styles.active__list : ''}`}>
                <li className={styles.navbar__item}>
-                  <Link to="/">Главная</Link>
+                  <Link to="/shop_sunplus">Главная</Link>
                </li>
                <li className={styles.navbar__item}>
                   <Link to="/shop_sunplus/about">О компании</Link>
@@ -31,6 +31,7 @@ const HeaderNav = () => {
             >
                <div className={styles.burger}></div>
             </button>
+            <Outlet />
          </nav>
          <Outlet />
       </>

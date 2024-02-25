@@ -15,23 +15,22 @@ const Articles = () => {
   const getArticles = async() => {
     try{
       const response = await fetch('articlesArray.json');
-      //  const response = await fetch('./articlesArray.json');
-       const res = await response.json();
-       console.log(`resArticles ${res}`);
-       
-       setArticles(res.articles);
-       setLoad(false);
+        const res = await response.json();
+        console.log(`resArticles ${res}`);
+        
+        setArticles(res.articles);
+        setLoad(false);
     }
     catch(error) {
-       setLoad(false);
-       console.error('Ошибка при загрузке данных:', error);
-       return null;
+        setLoad(false);
+        console.error('Ошибка при загрузке данных:', error);
+        return null;
     }
- };
-       
- useEffect(() => {
+  };
+    
+  useEffect(() => {
     getArticles();
- }, []);
+  }, []);
   
   return (
     <div className="container">
