@@ -1,0 +1,28 @@
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   padding-top: 25px;
+   & .title {
+      text-transform: uppercase;
+      padding-bottom: 25px;
+      text-align: center;
+   }
+   & .text {
+      text-indent: 3rem;
+      font-size: 1.143rem;
+      text-align: justify;
+   }
+   & .article {
+      font-size: none;
+      list-style: none;
+      padding-top: 25px;
+      & .article__title {
+         padding-bottom: 8px;
+      }
+      & .article__text {
+         font-size: 1.143rem;
+         text-align: justify;
+         text-indent: none;
+      }
+   }
+}

@@ -1,3 +1,15 @@
-.title {
-   font-size: 2rem;
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   padding-top: 25px;
+   & .title {
+      text-transform: uppercase;
+      padding-bottom: 25px;
+      text-align: center;
+   }
+   & .text {
+      text-indent: 3rem;
+      font-size: 1.143rem;
+      text-align: justify;
+   }
 }
