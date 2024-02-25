@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     react()
   ],
-  base: "/shop_sunplus",
+  base: "/shop_sunplus/",
 })

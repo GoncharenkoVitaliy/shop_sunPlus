@@ -16,7 +16,7 @@ const Articles = () => {
     try{
       const response = await fetch('articlesArray.json');
         const res = await response.json();
-        console.log(`resArticles ${res}`);
+        // console.log(`resArticles ${res}`);
         
         setArticles(res.articles);
         setLoad(false);
