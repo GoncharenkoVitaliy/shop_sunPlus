@@ -51,7 +51,7 @@ const Articles = () => {
                 )
               })}
             </ul>
-       }
+        }
       </div>
     </div>
   )

@@ -4,11 +4,18 @@ import { Link, Outlet } from 'react-router-dom';
 
 const HeaderNav = () => {
    const [active, setActive] = useState(false);
+
+   const getActive = () => {
+      setActive(!active);
+   }
    
    return (
       <>
          <nav className={`${styles.header__navbar} container`}>
-            <ol className={`${styles.navbar__list} ${active ? styles.active__list : ''}`}>
+            <ol
+               className={`${styles.navbar__list} ${active ? styles.active__list : ''}`}
+               onClick={getActive}
+            >
                <li className={styles.navbar__item}>
                   <Link to="/shop_sunplus/">Главная</Link>
                </li>
@@ -27,7 +34,7 @@ const HeaderNav = () => {
             </ol>
             <button
                className={styles.burger__wrapper}
-               onClick={() => setActive(!active)}
+               onClick={getActive}
             >
                <div className={styles.burger}></div>
             </button>
