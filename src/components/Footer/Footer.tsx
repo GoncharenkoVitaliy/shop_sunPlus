@@ -6,9 +6,11 @@ const Footer = () => {
       <footer className={styles.footer}>
          <div className={`${styles.wrapper} container`}>
             <p className={styles.copyright}>
-               © 2014 Все права защищены. «Сан-плюс»
+               © 2014 Все права защищены. <span>«Сан-плюс»</span>
             </p>
-            <HeaderAddress/>
+            <div className={styles.wrapper__adres}>
+               <HeaderAddress/>
+            </div>
          </div>
       </footer>
    )

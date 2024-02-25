@@ -6,6 +6,7 @@ import CardsProduct from '../../CardsProduct/CardsProduct';
 
 export interface ISetDate {
    id: number,
+   manufacturer: string,
    image: string,
    categories: string,
    prace: number,
@@ -30,7 +31,6 @@ const MainContent = () => {
    const getUsers = async() => {
       try{
          const response = await fetch('db.json');
-         // const response = await fetch('../../../../public/db.json');
          const res = await response.json();
          
          setData(res.products);

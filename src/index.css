@@ -31,7 +31,7 @@ input,button,textarea,select{font:inherit;}
 /* ====================== */
 
 :root {
-  --dark-color: rgb(67, 63, 63);
+  --dark-color: rgb(92, 87, 87);
   --light-color: #ffffff;
   --header: #00aed9;
   --navbar: #00aed972;
@@ -70,7 +70,7 @@ body {
 /* ============================================ */
 .container{
   max-width: 960px;
-  padding: 0;
+  padding: 0 15px;
   margin: 0;
   margin: 0 auto;
   /* outline: solid 1px gold; */

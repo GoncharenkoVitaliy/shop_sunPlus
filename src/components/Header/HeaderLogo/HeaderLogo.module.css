@@ -48,3 +48,27 @@
       }
    }
 }
+@media(max-width: 450px){
+   .headerLogo {
+      & .logoLink {
+         position: relative;
+         & .logoWrapImg{
+            top: 10px;
+            left: 60px;
+         }
+         .logoTextBlock {
+            display: none;
+         }
+      }
+   }
+}
+@media(max-width: 340px){
+   .headerLogo {
+      & .logoLink {
+         & .logoWrapImg{
+         }
+         .logoTextBlock {
+         }
+      }
+   }
+}

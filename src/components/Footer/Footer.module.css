@@ -16,3 +16,29 @@
       }
    }
 }
+@media(max-width: 590px){
+   .footer {
+      height: 100%;
+      padding-top: 20px;
+      & .wrapper {
+         display: flex;
+         flex-direction: column;
+         & .copyright{
+            width: auto;
+            font-size: 0.857rem;
+         }
+         & .wrapper__adres {
+            text-align:center;
+         }
+      }
+   }
+}
+@media(max-width: 350px){
+   .footer {
+      & .wrapper {
+         & .copyright > span{
+            text-wrap:nowrap;
+         }
+      }
+   }
+}

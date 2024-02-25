@@ -10,8 +10,8 @@ const HeaderBascet = () => {
                <p className={styles.basket__count}>
                   <span id="count">3</span> товара,
                </p>
-               <p className={styles.basket__summa}>на сумму 
-                  <span id="summa">35 000</span> руб.
+               <p className={styles.basket__summa}>
+                  на сумму <span id="summa"> 35 000 руб.</span>
                </p>
          </a>
       </div>

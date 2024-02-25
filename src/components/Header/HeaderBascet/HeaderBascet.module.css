@@ -12,9 +12,26 @@
       & .basket__title{
          font-size: 1.125rem; /* 18px */
       }
-      & .basket__count, .basket__summa{}
    }
    & .basket__link:hover{
       text-decoration: underline;
+   }
+}
+@media(max-width: 380px){
+   .header__basket{
+      width: 250px;
+      & .basket__link{
+         /* width: 100px; */
+         padding: 10px 0 10px 10px;
+         & .basket__image{
+            float: right;
+         }
+         & .basket__title{
+         }
+         & .basket__count{}
+         & .basket__summa{
+            text-wrap:nowrap;
+         }
+      }
    }
 }

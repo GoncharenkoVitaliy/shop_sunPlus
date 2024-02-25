@@ -2,6 +2,7 @@
    "products": [
       {
          "id": 1,
+         "manufacturer": "Ванны-Франция",
          "image": "https://cdn.vseinstrumenti.ru/images/goods/santehnicheskoe-oborudovanie/sanfayans/2225620/1200x800/54749890.jpg",
          "categories": "Ванны",
          "prace": 130000,
@@ -20,6 +21,7 @@
       },
       {
          "id": 2,
+         "manufacturer": "Ванны-Франция",
          "image": "https://megavanna.ru/upload/iblock/750/750babd9d704024e9faa3ae87827c46d.jpg",
          "categories": "Ванны",
          "prace": 130000,
@@ -34,6 +36,7 @@
       },
       {
          "id": 3,
+         "manufacturer": "Ванны-Италия",
          "image": "https://cdn.vseinstrumenti.ru/images/goods/santehnicheskoe-oborudovanie/sanfayans/2225620/1200x800/54749890.jpg",
          "categories": "Ванны",
          "prace": 130000,
@@ -47,6 +50,7 @@
       },
       {
          "id": 4,
+         "manufacturer": "Ванны-Италия",
          "image": "https://cdn.vseinstrumenti.ru/images/goods/santehnicheskoe-oborudovanie/sanfayans/2225620/1200x800/54749890.jpg",
          "categories": "Ванны",
          "prace": 130000,
@@ -59,6 +63,7 @@
       },
       {
          "id": 5,
+         "manufacturer": "Ванны-Италия",
          "image": "https://www.imperial-bathrooms.co.uk/wp-content/uploads/Waldorf-single-ended-bath-0-tap-holes-with-chrome-ball-and-claw-feet-3.jpg",
          "categories": "Ванны",
          "prace": 130000,
@@ -70,6 +75,7 @@
       },
       {
          "id": 6,
+         "manufacturer": "Ванны-Греция",
          "image": "https://megavanna.ru/upload/iblock/750/750babd9d704024e9faa3ae87827c46d.jpg",
          "categories": "Ванны",
          "prace": 130000,
@@ -83,6 +89,7 @@
       },
       {
          "id": 7,
+         "manufacturer": "Ванны-Греция",
          "image": "https://megavanna.ru/upload/iblock/750/750babd9d704024e9faa3ae87827c46d.jpg",
          "categories": "Ванны",
          "prace": 130000,
@@ -98,6 +105,7 @@
       },
       {
          "id": 8,
+         "manufacturer": "Душевые-кабины Греция",
          "image": "https://www.san-tun.ru/upload/iblock/061/0612da19b2ea391d6820bc22ea1dd1de.jpg",
          "categories": "Душевая кабина",
          "prace": 130000,
@@ -113,6 +121,7 @@
       },
       {
          "id": 9,
+         "manufacturer": "Душевые-кабины Греция",
          "image": "https://www.san-tun.ru/upload/iblock/061/0612da19b2ea391d6820bc22ea1dd1de.jpg",
          "categories": "Душевая кабина",
          "prace": 130000,
@@ -128,6 +137,7 @@
       },
       {
          "id": 10,
+         "manufacturer": "Душевые-кабины Турция",
          "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
          "categories": "Душевая кабина",
          "prace": 130000,
@@ -142,6 +152,7 @@
       },
       {
          "id": 11,
+         "manufacturer": "Мебель для ванной Греция",
          "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
          "categories": "Мебель для ванной",
          "prace": 130000,
@@ -157,6 +168,7 @@
       },
       {
          "id": 12,
+         "manufacturer": "Мебель для ванной Франция",
          "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
          "categories": "Мебель для ванной",
          "prace": 130000,
@@ -171,6 +183,7 @@
       },
       {
          "id": 13,
+         "manufacturer": "Мебель для ванной Франция",
          "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
          "categories": "Мебель для ванной",
          "prace": 130000,
@@ -186,6 +199,7 @@
       },
       {
          "id": 14,
+         "manufacturer": "Стойка душевая Греция",
          "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
          "categories": "Стойка душевая",
          "prace": 130000,
@@ -200,6 +214,7 @@
       },
       {
          "id": 15,
+         "manufacturer": "Стойка душевая Италия",
          "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
          "categories": "Стойка душевая",
          "prace": 130000,
@@ -215,6 +230,7 @@
       },
       {
          "id": 16,
+         "manufacturer": "Стойка душевая Италия",
          "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
          "categories": "Стойка душевая",
          "prace": 130000,
@@ -230,6 +246,7 @@
       },
       {
          "id": 17,
+         "manufacturer": "Душевой поддон Италия",
          "image": "https://aquavik.ru/wa-data/public/shop/products/19/96/69619/images/193859/193859.970.jpg",
          "categories": "Душевой поддон",
          "prace": 130000,
@@ -245,6 +262,7 @@
       },
       {
          "id": 18,
+         "manufacturer": "Душевой поддон Франция",
          "image": "https://aquavik.ru/wa-data/public/shop/products/19/96/69619/images/193859/193859.970.jpg",
          "categories": "Душевой поддон",
          "prace": 130000,
@@ -260,6 +278,7 @@
       },
       {
          "id": 19,
+         "manufacturer": "Душевой поддон Италия",
          "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
          "categories": "Душевой поддон",
          "prace": 130000,
@@ -275,6 +294,7 @@
       },
       {
          "id": 20,
+         "manufacturer": "Душевой поддон Турция",
          "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
          "categories": "Душевой поддон",
          "prace": 130000,

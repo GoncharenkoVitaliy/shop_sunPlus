@@ -7,7 +7,9 @@ const HeaderWrapper = () => {
    return (
       <div className={`${styles.headerWrapper} container`}>
          <HeaderLogo/>
-         <HeaderAddress/>
+         <div className={styles.wrapper__adres}>
+            <HeaderAddress/>
+         </div>
          <HeaderBascet/>
       </div> 
    )

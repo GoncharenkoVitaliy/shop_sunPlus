@@ -1,8 +1,24 @@
-& .main__content{
+.main__content{
    flex: 3;
    & .content__product{
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+   }
+}
+@media(max-width:950px){
+   .main__content{
+      padding: 0 20px;
+      & .content__product{
+         justify-content: space-around;
+      }
+   }
+}
+@media(max-width:560px){
+   .main__content{
+      padding: 0;
+      /* & .content__product{
+         justify-content: space-around;
+      } */
    }
 }

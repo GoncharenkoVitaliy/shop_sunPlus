@@ -3,5 +3,75 @@
   z-index: 1;
   display: flex;
   justify-content:left;
-  /* justify-content: space-between; */
+  & .filter__button {
+    display: none;
+    /* position: absolute; */
+  }
+  & .wrapper__decor {
+    z-index: -1;
+  }
+  & .wrapper__menu {
+    z-index: 1;
+    padding: 0;
+    flex: 1;
+  }
+}
+@media(max-width: 1010px){
+  .wrapper__decor {
+    display: none;
+  }
+}
+@media(max-width: 950px){
+  .main {
+    & .filter__button {
+      display: block;
+      position: absolute;
+      z-index: 11;
+      top:-35px;
+      border: none;
+      background: transparent;
+      font-size: 1.25rem;
+    }
+    & .wrapper__menu{
+      transition: all .4s linear;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: -1200px;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      background-color: var(--burger);
+      width: 100vw;
+      padding-left: 30px;
+      min-height: 100%;
+    }
+    & .active__wrapper_menu {
+      left: 0px;
+    }
+    & .burger_filter{
+      display: block;
+      height: 30px;
+      position: absolute;
+      background-color: inherit;
+      border: none;
+      left: 30px;
+      top: -40px;
+      cursor: pointer;
+      font-size: 1.25rem;
+    }
+    & .burger_filter:hover{
+      scale: 1.1;
+    }
+  }
+  /* & .main::before{
+    content:'Фильтр';
+    font-size: 1.25rem;
+    position: fixed;
+    top: 170px;
+    left: 10px;
+  } */
 }

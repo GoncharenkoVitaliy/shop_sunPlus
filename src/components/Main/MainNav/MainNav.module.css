@@ -114,50 +114,53 @@
       }
    }
 }
-.filter__wrapper .button {
+.wrapper__button{
+   border-top: 1px solid var(--gray);
+   padding-top: 20px;
+   & .button {
    cursor: pointer;
    border: none;
    text-align: start;
-   padding: 20px 0px 10px 30px;
+   padding-left: 30px;
    color: var(--header);
-   border-top: 1px solid var(--gray);
-   background: var(--background-card);
+   background: transparent;
+   width: 100%;
    position: relative;
-}
-.filter__wrapper .button:hover{
-   text-decoration: underline;
-}
-.filter__wrapper .button::before{
-   position: absolute;
-   content: '';
-   width: 40px;
-   height: 27px;
-   background: url(../../images/menu/settings.png) no-repeat left/55%;
-   left: 0px;
-   top: 30px;
-   padding:0;
+   }
+   & .button:hover{
+      text-decoration: underline;
+   }
+   & .button::before{
+      position: absolute;
+      text-align: center;
+      content: '';
+      width: 40px;
+      height: 27px;
+      background: url(../../images/menu/settings.png) no-repeat left/55%;
+      left: 0px;
+      top: 50%;
+      transform: translateY(-50%);
+      padding:0;
+   }
 }
 @media (prefers-color-scheme: dark) {
    .menu__filters {
-     color-scheme: light dark;
-     background-color: var(--darkBackgroundCard);
-     color: var(--white);
-     & .filter__wrapper{
-      & .filter__catigories{
-         & .filter__manufacturer{
+      color-scheme: light dark;
+      background-color: var(--darkBackgroundCard);
+      color: var(--white);
+      & .filter__wrapper{
+         & .filter__catigories{
+            & .filter__manufacturer{
+               & h4::before{
+                  border: 0.5px solid var(--white);
+               }
+            }
+         }
+         & .filter__type{
             & h4::before{
                border: 0.5px solid var(--white);
             }
          }
       }
-      & .filter__type{
-         & h4::before{
-            border: 0.5px solid var(--white);
-         }
-      }
    }
-   }
-   .filter__wrapper .button{
-      background-color: var(--darkBackgroundCard);
-   }
- }
+}

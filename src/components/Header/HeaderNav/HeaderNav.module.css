@@ -2,7 +2,7 @@
    position: relative;
    top: auto;
    height: 50px;
-   z-index: 10;
+   /* z-index: 2; */
    display: flex;
    justify-content: center;
    border-top: 1px solid var(--header);
@@ -38,7 +38,7 @@
          transition: all .4s linear;
          position: absolute;
          top: 49px;
-         right: 0;
+         right: 0px;
          bottom: 0;
          left: 1200px;
          z-index: 2;
@@ -58,7 +58,7 @@
          }
       }
       & .active__list {
-         left: -30px;
+         left: -10px;
       }
       & .burger__wrapper{
          display: block;
@@ -71,7 +71,7 @@
          & .burger {
             top: 5%;
             transform: translate(0, -50%);
-            width: 25px;
+            width: 20px;
             height: 2px;
             background-color: var(--white);
             border: none;
@@ -87,13 +87,13 @@
             height: 3px;
             top: -13px;
             right: 0;
-            width: 30px;
+            width: 25px;
          }
          & .burger::after{
             height: 1px;
             top: 13px;
             right: 0;
-            width: 20px;
+            width: 15px;
          }
       }
       & .active_burger__wrapper{
@@ -107,7 +107,7 @@
          & .burger {
             top: 5%;
             transform: translate(0, -50%);
-            width: 25px;
+            width: 20px;
             height: 2px;
             background-color: var(--white);
             border: none;
@@ -123,13 +123,13 @@
             height: 1px;
             top: -13px;
             right: 0;
-            width: 20px;
+            width: 15px;
          }
          & .burger::after{
             height: 3px;
             top: 13px;
             right: 0;
-            width: 30px;
+            width: 25px;
          }
       }
       & .burger__wrapper:hover{

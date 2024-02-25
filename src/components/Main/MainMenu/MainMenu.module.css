@@ -1,5 +1,10 @@
 .main__menu {
-   flex: 1;
    text-align: left;
    padding: 20px 20px 0 0;
+   z-index: 1;
+}
+@media(max-width: 980px){
+   .main__menu {
+      & .wrapper {}
+   }
 }

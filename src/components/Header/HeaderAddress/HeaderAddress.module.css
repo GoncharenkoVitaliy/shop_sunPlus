@@ -18,3 +18,11 @@
       text-decoration: underline;
    }
 }
+@media(max-width: 370px){
+   .headerAddress{
+      padding: 0px;
+      & .address__link {
+         font-size: 1rem;
+      }
+   }
+}
