@@ -13,16 +13,16 @@ const HeaderNav = () => {
                   <Link to="/">Главная</Link>
                </li>
                <li className={styles.navbar__item}>
-                  <Link to="/about">О компании</Link>
+                  <Link to="/shop_sunplus/about">О компании</Link>
                </li>
                <li className={styles.navbar__item}>
-                  <Link to="/paymentDelivery">Оплата и доставка</Link>
+                  <Link to="/shop_sunplus/paymentDelivery">Оплата и доставка</Link>
                </li>
                <li className={styles.navbar__item}>
-                  <Link to="/articles">Статьи</Link>
+                  <Link to="/shop_sunplus/articles">Статьи</Link>
                </li>
                <li className={styles.navbar__item}>
-                  <Link to="/contact">Контакты</Link>
+                  <Link to="/shop_sunplus/contact">Контакты</Link>
                </li>
             </ol>
             <button

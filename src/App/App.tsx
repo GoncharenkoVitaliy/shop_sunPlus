@@ -16,10 +16,10 @@ function App() {
         <Header/>
         <Routes>
             <Route index element={<Main />} />
-            <Route path="about" element={<About />} />
-            <Route path="paymentDelivery" element={<PaymentDelivery />} />
-            <Route path="articles" element={<Articles />} />
-            <Route path="contact" element={<Contacts />} />
+            <Route path="/shop_sunplus/about" element={<About />} />
+            <Route path="/shop_sunplus/paymentDelivery" element={<PaymentDelivery />} />
+            <Route path="/shop_sunplus/articles" element={<Articles />} />
+            <Route path="/shop_sunplus/contact" element={<Contacts />} />
             <Route path="*" element={<NoPage />} />
         </Routes>
         <Footer/>

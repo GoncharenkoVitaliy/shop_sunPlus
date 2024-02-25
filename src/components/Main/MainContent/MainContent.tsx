@@ -3,8 +3,6 @@ import { useEffect, useState } from 'react';
 import styles from './MainContent.module.css';
 import Spinner from '../../spinner/Spinner';
 import CardsProduct from '../../CardsProduct/CardsProduct';
-// import axios from 'axios';
-// import db from '../../../../public/db.json';
 
 export interface ISetDate {
    id: number,
@@ -31,12 +29,9 @@ const MainContent = () => {
 
    const getUsers = async() => {
       try{
-         // const res = await axios.get("http://localhost:3031/product");
-         
          const response = await fetch('db.json');
          // const response = await fetch('../../../../public/db.json');
          const res = await response.json();
-         // console.log(`res ${res}`);
          
          setData(res.products);
          setLoading(false);

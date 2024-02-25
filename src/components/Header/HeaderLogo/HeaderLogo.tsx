@@ -1,10 +1,11 @@
 import styles from './HeaderLogo.module.css';
 import kapliaLogo from '../../images/header/kaplia-logo.png';
+import { Link } from 'react-router-dom';
 
 const HeaderLogo = () => {
    return (
       <div className={styles.headerLogo}>
-            <a href="#" className={styles.logoLink}>
+            <Link to="/" className={styles.logoLink}>
                <div className={styles.logoWrapImg}>
                   <p className={`${styles.logoImg} ${styles.one}`}>
                      <img src={kapliaLogo} alt="капли-логотип"/>
@@ -19,7 +20,7 @@ const HeaderLogo = () => {
                   <p className={styles.logoTitle}>Сан-плюс</p>
                   <p className={styles.logoSubtitle}>Вся сантехника</p>
                </div>
-            </a>
+            </Link>
          </div>
    )
 }

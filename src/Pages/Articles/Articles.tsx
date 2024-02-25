@@ -14,7 +14,8 @@ const Articles = () => {
   
   const getArticles = async() => {
     try{
-       const response = await fetch('./articlesArray.json');
+      const response = await fetch('articlesArray.json');
+      //  const response = await fetch('./articlesArray.json');
        const res = await response.json();
        console.log(`resArticles ${res}`);
        
@@ -33,7 +34,7 @@ const Articles = () => {
  }, []);
   
   return (
-    <div>
+    <div className="container">
       <h1>Статьи</h1>
       <p>Мы регулярно публикуем статьи и полезные материалы, чтобы помочь нашим клиентам получить больше информации о сантехнике и аксессуарах для ванных комнат.</p>
       <p>В наших статьях мы обсуждаем различные темы, такие как выбор сантехники, установка и обслуживание, дизайн ванных комнат и многое другое. Мы стремимся предоставить нашим читателям полезные советы и рекомендации, чтобы помочь им принять информированные решения при покупке сантехники.</p>

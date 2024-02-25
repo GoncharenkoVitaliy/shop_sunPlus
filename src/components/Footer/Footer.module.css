@@ -1,6 +1,4 @@
 .footer {
-   border: 1px solid blue;
-   /* margin: 0 auto; */
    margin-top: 40px;
    height: 120px;
    min-width: 100vw;
@@ -15,7 +13,6 @@
       & .copyright{
          width: 220px;
          font-size: 0.857rem;
-         border: 1px solid red;
       }
    }
 }
