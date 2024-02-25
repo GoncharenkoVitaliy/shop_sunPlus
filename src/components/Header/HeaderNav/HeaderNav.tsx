@@ -33,7 +33,7 @@ const HeaderNav = () => {
                </li>
             </ol>
             <button
-               className={styles.burger__wrapper}
+               className={active ? styles.active_burger__wrapper : styles.burger__wrapper}
                onClick={getActive}
             >
                <div className={styles.burger}></div>

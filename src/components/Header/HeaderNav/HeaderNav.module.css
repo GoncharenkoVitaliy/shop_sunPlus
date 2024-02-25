@@ -35,7 +35,7 @@
    .header__navbar{
       justify-content: flex-end;
       & .navbar__list{
-         transition: all .3s linear;
+         transition: all .4s linear;
          position: absolute;
          top: 49px;
          right: 0;
@@ -61,7 +61,6 @@
          left: -30px;
       }
       & .burger__wrapper{
-         transition: all 0.3s ease 0s;
          display: block;
          height: 100%;
          position: relative;
@@ -79,6 +78,7 @@
             position: relative;
          }
          & .burger::before, .burger::after{
+            transition: all .4s linear;
             content: '';
             background-color: var(--white);
             position: absolute;
@@ -94,6 +94,42 @@
             top: 13px;
             right: 0;
             width: 20px;
+         }
+      }
+      & .active_burger__wrapper{
+         display: block;
+         height: 100%;
+         position: relative;
+         background-color: inherit;
+         border: none;
+         right: 30px;
+         cursor: pointer;
+         & .burger {
+            top: 5%;
+            transform: translate(0, -50%);
+            width: 25px;
+            height: 2px;
+            background-color: var(--white);
+            border: none;
+            position: relative;
+         }
+         & .burger::before, .burger::after{
+            transition: all .4s linear;
+            content: '';
+            background-color: var(--white);
+            position: absolute;
+         }
+         & .burger::before{
+            height: 1px;
+            top: -13px;
+            right: 0;
+            width: 20px;
+         }
+         & .burger::after{
+            height: 3px;
+            top: 13px;
+            right: 0;
+            width: 30px;
          }
       }
       & .burger__wrapper:hover{
