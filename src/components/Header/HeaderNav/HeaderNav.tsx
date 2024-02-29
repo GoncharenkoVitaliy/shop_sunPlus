@@ -32,12 +32,14 @@ const HeaderNav = () => {
                   <Link to="/shop_sunplus/contact">Контакты</Link>
                </li>
             </ol>
-            <button
-               className={active ? styles.active_burger__wrapper : styles.burger__wrapper}
-               onClick={getActive}
-            >
-               <div className={styles.burger}></div>
-            </button>
+            <div className={styles.burger__container}>
+               <button
+                  className={`${active ? styles.active_burger__wrapper : styles.burger__wrapper}`}
+                  onClick={getActive}
+               >
+                  <div className={styles.burger}></div>
+               </button>
+            </div>
             <Outlet />
          </nav>
          <Outlet />
