@@ -30,37 +30,6 @@
                top: 8px;
                left: -12px;
             }
-            & .filter__manufacturerList {
-               position: relative;
-               & .filter__manufacturerItem{
-                  cursor: pointer;
-                  position: relative;
-                  font-size: 0.857rem;
-                  font-weight: 700;
-               }
-               & .filter__manufacturerItem > p {
-                  content: '';
-                  position: absolute;
-                  border: 1px solid red;
-                  display: inline-block;
-                  width: 20px;
-                  height: 1px;
-                  transform: rotate(-45deg);
-                  top: 9px;
-                  left: -20px;
-               }
-               & .filter__manufacturerItem > p::before{
-                  content: '';
-                  position: absolute;
-                  border: 1px solid red;
-                  display: inline-block;
-                  width: 15px;
-                  height: 1px;
-                  transform: rotate(90deg);
-                  top: -1px;
-                  left: 2px;
-               }
-            }
          }
       }
       & .filter__type{
@@ -82,34 +51,6 @@
             position: absolute;
             top: 8px;
             left: -12px;
-         }
-         & .filter__typeList{
-            & .filter__typeItem{
-               position: relative;
-               cursor: pointer;
-               font-size: 0.857rem;
-               font-weight: 700;
-               display: flex;
-               & .filter__p {
-                  border:1px solid red;
-                  width: 20px;
-                  height: 1px;
-                  transform: rotate(-45deg);
-                  top: 8px;
-                  left: -20px;
-                  position: absolute;
-               }
-               & .filter__p::before{
-                  position: absolute;
-                  content: '';
-                  border: 1px solid red;
-                  width: 15px;
-                  height: 1px;
-                  transform: rotate(90deg);
-                  top: 0px;
-                  left: 0px;
-               }
-            }
          }
       }
    }

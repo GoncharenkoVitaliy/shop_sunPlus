@@ -2,11 +2,11 @@
    "products": [
       {
          "id": 1,
-         "manufacturer": "Ванны-Франция",
+         "manufacturer": "Франция",
          "image": "https://cdn.vseinstrumenti.ru/images/goods/santehnicheskoe-oborudovanie/sanfayans/2225620/1200x800/54749890.jpg",
          "categories": "Ванны",
-         "prace": 130000,
-         "popular": "true",
+         "prace": 128000,
+         "popular": false,
          "title": "Чугунные ванны",
          "description": {
             "discOn": "Прямоугольные",
@@ -21,11 +21,11 @@
       },
       {
          "id": 2,
-         "manufacturer": "Ванны-Франция",
+         "manufacturer": "Франция",
          "image": "https://megavanna.ru/upload/iblock/750/750babd9d704024e9faa3ae87827c46d.jpg",
          "categories": "Ванны",
-         "prace": 130000,
-         "popular": "false",
+         "prace": 127000,
+         "popular": false,
          "title": "Прямоугольные",
          "description": {
             "discOn": "Прямоугольные",
@@ -36,11 +36,11 @@
       },
       {
          "id": 3,
-         "manufacturer": "Ванны-Италия",
+         "manufacturer": "Италия",
          "image": "https://cdn.vseinstrumenti.ru/images/goods/santehnicheskoe-oborudovanie/sanfayans/2225620/1200x800/54749890.jpg",
          "categories": "Ванны",
-         "prace": 130000,
-         "popular": "true",
+         "prace": 125000,
+         "popular": true,
          "title": "Угловые симметричные",
          "description": {
             "discOn": "Прямоугольные",
@@ -50,11 +50,11 @@
       },
       {
          "id": 4,
-         "manufacturer": "Ванны-Италия",
+         "manufacturer": "Италия",
          "image": "https://cdn.vseinstrumenti.ru/images/goods/santehnicheskoe-oborudovanie/sanfayans/2225620/1200x800/54749890.jpg",
          "categories": "Ванны",
-         "prace": 130000,
-         "popular": "true",
+         "prace": 115000,
+         "popular": true,
          "title": "Угловые ассиметричные",
          "description": {
             "discOn": "Прямоугольные",
@@ -63,11 +63,11 @@
       },
       {
          "id": 5,
-         "manufacturer": "Ванны-Италия",
+         "manufacturer": "Италия",
          "image": "https://www.imperial-bathrooms.co.uk/wp-content/uploads/Waldorf-single-ended-bath-0-tap-holes-with-chrome-ball-and-claw-feet-3.jpg",
          "categories": "Ванны",
          "prace": 130000,
-         "popular": "false",
+         "popular": false,
          "title": "Других форм",
          "description": {
             "discOn": "Прямоугольные"
@@ -75,25 +75,25 @@
       },
       {
          "id": 6,
-         "manufacturer": "Ванны-Греция",
+         "manufacturer": "Греция",
          "image": "https://megavanna.ru/upload/iblock/750/750babd9d704024e9faa3ae87827c46d.jpg",
          "categories": "Ванны",
-         "prace": 130000,
-         "popular": "true",
+         "prace": 118000,
+         "popular": true,
          "title": "Гидромассажные ванны",
          "description": {
             "discOn": "Прямоугольные",
             "discTwo": "Угловые симметричные",
-            "discFive": "Круглые и овальные"
+            "discFree": "Круглые и овальные"
          }
       },
       {
          "id": 7,
-         "manufacturer": "Ванны-Греция",
+         "manufacturer": "Греция",
          "image": "https://megavanna.ru/upload/iblock/750/750babd9d704024e9faa3ae87827c46d.jpg",
          "categories": "Ванны",
          "prace": 130000,
-         "popular": "true",
+         "popular": false,
          "title": "Круглые и овальные",
          "description": {
             "discOn": "Прямоугольные",
@@ -105,11 +105,11 @@
       },
       {
          "id": 8,
-         "manufacturer": "Душевые-кабины Греция",
+         "manufacturer": "Греция",
          "image": "https://www.san-tun.ru/upload/iblock/061/0612da19b2ea391d6820bc22ea1dd1de.jpg",
          "categories": "Душевая кабина",
-         "prace": 130000,
-         "popular": "false",
+         "prace": 110000,
+         "popular": false,
          "title": "Полукруглые душевые уголки",
          "description": {
             "discOn": "Прямоугольные",
@@ -121,11 +121,11 @@
       },
       {
          "id": 9,
-         "manufacturer": "Душевые-кабины Греция",
+         "manufacturer": "Греция",
          "image": "https://www.san-tun.ru/upload/iblock/061/0612da19b2ea391d6820bc22ea1dd1de.jpg",
          "categories": "Душевая кабина",
-         "prace": 130000,
-         "popular": "true",
+         "prace": 112000,
+         "popular": false,
          "title": "Прямоугольные душевые уголки",
          "description": {
             "discOn": "Прямоугольные",
@@ -137,26 +137,86 @@
       },
       {
          "id": 10,
-         "manufacturer": "Душевые-кабины Турция",
+         "manufacturer": "Турция",
          "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
          "categories": "Душевая кабина",
-         "prace": 130000,
-         "popular": "true",
+         "prace": 109000,
+         "popular": false,
          "title": "Душевые двери",
          "description": {
             "discOn": "Прямоугольные",
             "discTwo": "Угловые симметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "discThree": "Других форм",
+            "discFour": "Круглые и овальные"
          }
       },
       {
          "id": 11,
-         "manufacturer": "Мебель для ванной Греция",
+         "manufacturer": "Турция",
+         "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
+         "categories": "Душевая кабина",
+         "prace": 109000,
+         "popular": false,
+         "title": "Душевые двери",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Других форм",
+            "discFour": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 12,
+         "manufacturer": "Турция",
+         "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
+         "categories": "Душевая кабина",
+         "prace": 109000,
+         "popular": false,
+         "title": "Душевые двери",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Других форм",
+            "discFour": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 13,
+         "manufacturer": "Турция",
+         "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
+         "categories": "Душевая кабина",
+         "prace": 109000,
+         "popular": false,
+         "title": "Душевые двери",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Других форм",
+            "discFour": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 14,
+         "manufacturer": "Турция",
+         "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
+         "categories": "Душевая кабина",
+         "prace": 109000,
+         "popular": false,
+         "title": "Душевые двери",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Других форм",
+            "discFour": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 15,
+         "manufacturer": "Греция",
          "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
          "categories": "Мебель для ванной",
-         "prace": 130000,
-         "popular": "false",
+         "prace": 111000,
+         "popular": false,
          "title": "Комплекты",
          "description": {
             "discOn": "Прямоугольные",
@@ -167,27 +227,27 @@
          }
       },
       {
-         "id": 12,
-         "manufacturer": "Мебель для ванной Франция",
+         "id": 16,
+         "manufacturer": "Франция",
          "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
          "categories": "Мебель для ванной",
-         "prace": 130000,
-         "popular": "true",
+         "prace": 98000,
+         "popular": true,
          "title": "Модульная мебель",
          "description": {
             "discOn": "Прямоугольные",
             "discTwo": "Угловые симметричные",
             "discThree": "Угловые ассиметричные",
-            "discFive": "Круглые и овальные"
+            "discFour": "Круглые и овальные"
          }
       },
       {
-         "id": 13,
-         "manufacturer": "Мебель для ванной Франция",
+         "id": 17,
+         "manufacturer": "Франция",
          "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
          "categories": "Мебель для ванной",
-         "prace": 130000,
-         "popular": "true",
+         "prace": 99000,
+         "popular": true,
          "title": "Пеналы",
          "description": {
             "discOn": "Прямоугольные",
@@ -198,76 +258,13 @@
          }
       },
       {
-         "id": 14,
-         "manufacturer": "Стойка душевая Греция",
-         "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
-         "categories": "Стойка душевая",
-         "prace": 130000,
-         "popular": "false",
-         "title": "Душевые панели",
-         "description": {
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
-         }
-      },
-      {
-         "id": 15,
-         "manufacturer": "Стойка душевая Италия",
-         "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
-         "categories": "Стойка душевая",
-         "prace": 130000,
-         "popular": "true",
-         "title": "Тропический душ",
-         "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
-         }
-      },
-      {
-         "id": 16,
-         "manufacturer": "Стойка душевая Италия",
-         "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
-         "categories": "Стойка душевая",
-         "prace": 130000,
-         "popular": "true",
-         "title": "Системы скрытого монтажа",
-         "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
-         }
-      },
-      {
-         "id": 17,
-         "manufacturer": "Душевой поддон Италия",
-         "image": "https://aquavik.ru/wa-data/public/shop/products/19/96/69619/images/193859/193859.970.jpg",
-         "categories": "Душевой поддон",
-         "prace": 130000,
-         "popular": "false",
-         "title": "Полукруглый",
-         "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
-         }
-      },
-      {
          "id": 18,
-         "manufacturer": "Душевой поддон Франция",
-         "image": "https://aquavik.ru/wa-data/public/shop/products/19/96/69619/images/193859/193859.970.jpg",
-         "categories": "Душевой поддон",
-         "prace": 130000,
-         "popular": "true",
-         "title": "Полукруглый",
+         "manufacturer": "Франция",
+         "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
+         "categories": "Мебель для ванной",
+         "prace": 99000,
+         "popular": true,
+         "title": "Пеналы",
          "description": {
             "discOn": "Прямоугольные",
             "discTwo": "Угловые симметричные",
@@ -278,12 +275,12 @@
       },
       {
          "id": 19,
-         "manufacturer": "Душевой поддон Италия",
-         "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
-         "categories": "Душевой поддон",
-         "prace": 130000,
-         "popular": "true",
-         "title": "Полукруглый",
+         "manufacturer": "Франция",
+         "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
+         "categories": "Мебель для ванной",
+         "prace": 99000,
+         "popular": true,
+         "title": "Пеналы",
          "description": {
             "discOn": "Прямоугольные",
             "discTwo": "Угловые симметричные",
@@ -294,11 +291,250 @@
       },
       {
          "id": 20,
-         "manufacturer": "Душевой поддон Турция",
+         "manufacturer": "Франция",
+         "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
+         "categories": "Мебель для ванной",
+         "prace": 99000,
+         "popular": true,
+         "title": "Пеналы",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 21,
+         "manufacturer": "Франция",
+         "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
+         "categories": "Мебель для ванной",
+         "prace": 99000,
+         "popular": true,
+         "title": "Пеналы",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 22,
+         "manufacturer": "Греция",
+         "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
+         "categories": "Стойка душевая",
+         "prace": 8000,
+         "popular": false,
+         "title": "Душевые панели",
+         "description": {
+            "discOn": "Угловые симметричные",
+            "discTwo": "Угловые ассиметричные",
+            "discThree": "Других форм",
+            "discFour": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 23,
+         "manufacturer": "Италия",
+         "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
+         "categories": "Стойка душевая",
+         "prace": 9500,
+         "popular": true,
+         "title": "Тропический душ",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 24,
+         "manufacturer": "Италия",
+         "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
+         "categories": "Стойка душевая",
+         "prace": 8000,
+         "popular": true,
+         "title": "Системы скрытого монтажа",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 25,
+         "manufacturer": "Италия",
+         "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
+         "categories": "Стойка душевая",
+         "prace": 8000,
+         "popular": true,
+         "title": "Системы скрытого монтажа",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 26,
+         "manufacturer": "Италия",
+         "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
+         "categories": "Стойка душевая",
+         "prace": 8000,
+         "popular": true,
+         "title": "Системы скрытого монтажа",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 27,
+         "manufacturer": "Италия",
+         "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
+         "categories": "Стойка душевая",
+         "prace": 8000,
+         "popular": true,
+         "title": "Системы скрытого монтажа",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 28,
+         "manufacturer": "Италия",
+         "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
+         "categories": "Стойка душевая",
+         "prace": 8000,
+         "popular": true,
+         "title": "Системы скрытого монтажа",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 29,
+         "manufacturer": "Италия",
+         "image": "https://aquavik.ru/wa-data/public/shop/products/19/96/69619/images/193859/193859.970.jpg",
+         "categories": "Душевой поддон",
+         "prace": 98000,
+         "popular": false,
+         "title": "Полукруглый",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 30,
+         "manufacturer": "Франция",
+         "image": "https://aquavik.ru/wa-data/public/shop/products/19/96/69619/images/193859/193859.970.jpg",
+         "categories": "Душевой поддон",
+         "prace": 101000,
+         "popular": true,
+         "title": "Полукруглый",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 31,
+         "manufacturer": "Италия",
          "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
          "categories": "Душевой поддон",
-         "prace": 130000,
-         "popular": "false",
+         "prace": 99000,
+         "popular": false,
+         "title": "Полукруглый",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 32,
+         "manufacturer": "Италия",
+         "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
+         "categories": "Душевой поддон",
+         "prace": 99000,
+         "popular": false,
+         "title": "Полукруглый",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 33,
+         "manufacturer": "Италия",
+         "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
+         "categories": "Душевой поддон",
+         "prace": 99000,
+         "popular": false,
+         "title": "Полукруглый",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 34,
+         "manufacturer": "Италия",
+         "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
+         "categories": "Душевой поддон",
+         "prace": 99000,
+         "popular": false,
+         "title": "Полукруглый",
+         "description": {
+            "discOn": "Прямоугольные",
+            "discTwo": "Угловые симметричные",
+            "discThree": "Угловые ассиметричные",
+            "discFour": "Других форм",
+            "discFive": "Круглые и овальные"
+         }
+      },
+      {
+         "id": 35,
+         "manufacturer": "Турция",
+         "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
+         "categories": "Душевой поддон",
+         "prace": 102000,
+         "popular": false,
          "title": "Полукруглый",
          "description": {
             "discOn": "Прямоугольные",

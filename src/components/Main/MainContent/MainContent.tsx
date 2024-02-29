@@ -1,51 +1,10 @@
-
-import { useEffect, useState } from 'react';
 import styles from './MainContent.module.css';
 import Spinner from '../../spinner/Spinner';
 import CardsProduct from '../../CardsProduct/CardsProduct';
+import { ISetDate } from '../Main';
 
-export interface ISetDate {
-   id: number,
-   manufacturer: string,
-   image: string,
-   categories: string,
-   prace: number,
-   popular: boolean | string,
-   title: string,
-   description: {
-      discOn?: string,
-      discTwo?: string,
-      discThree?: string,
-      discFour?: string,
-      discFive?: string,
-      discSix?: string,
-      discSeven?: string,
-      discEight?: string
-   }
-}
 
-const MainContent = () => {
-   const [data, setData] = useState<ISetDate[]>([]); 
-   const [loading, setLoading] = useState(true);
-
-   const getUsers = async() => {
-      try{
-         const response = await fetch('db.json');
-         const res = await response.json();
-         
-         setData(res.products);
-         setLoading(false);
-      }
-      catch(error) {
-         setLoading(false);
-         console.error('Ошибка при загрузке данных:', error);
-         return null;
-      }
-   };
-         
-   useEffect(() => {
-      getUsers();
-   }, []);
+const MainContent = ({loading, data}: {loading: boolean, data: ISetDate[]}) => {
 
    return (
       <section className={styles.main__content}>
@@ -53,9 +12,9 @@ const MainContent = () => {
          {loading
             ? <Spinner/>
             : <ul className={styles.content__product}>
-               {data.map((d) => {
+               {data.map((d: ISetDate) => {
                   return (
-                     <CardsProduct d={d}  key={d.id}/>
+                     <CardsProduct d={d} key={d.id}/>
                   )
                })}
             </ul>

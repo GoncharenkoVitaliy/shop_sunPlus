@@ -1,0 +1,28 @@
+.filter__typeList{
+   & .filter__typeItem{
+      position: relative;
+      cursor: pointer;
+      font-size: 0.857rem;
+      font-weight: 700;
+      display: flex;
+      & .filter__p {
+         border:1px solid red;
+         width: 20px;
+         height: 1px;
+         transform: rotate(-45deg);
+         top: 8px;
+         left: -20px;
+         position: absolute;
+      }
+      & .filter__p::before{
+         position: absolute;
+         content: '';
+         border: 1px solid red;
+         width: 15px;
+         height: 1px;
+         transform: rotate(90deg);
+         top: 0px;
+         left: 0px;
+      }
+   }
+}

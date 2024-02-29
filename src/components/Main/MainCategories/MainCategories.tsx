@@ -1,6 +1,7 @@
 import styles from './MainCategories.module.css';
 
 const MainCategories = () => {
+
    return (
       <menu className={styles.menu__categories}>
          <li className={styles.categories__item}>

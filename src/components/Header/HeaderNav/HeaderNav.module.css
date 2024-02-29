@@ -2,7 +2,7 @@
    position: relative;
    top: auto;
    height: 50px;
-   /* z-index: 2; */
+   z-index: 2;
    display: flex;
    justify-content: center;
    border-top: 1px solid var(--header);

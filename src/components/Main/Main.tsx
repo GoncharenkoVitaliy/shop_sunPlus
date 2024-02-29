@@ -2,10 +2,52 @@ import styles from './Main.module.css';
 import MainMenu from './MainMenu/MainMenu';
 import MainContent from './MainContent/MainContent';
 import Decor from '../Decor/Decor';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+
+export interface ISetDate {
+   id: number,
+   manufacturer: string,
+   image: string,
+   categories: string,
+   prace: number,
+   popular: boolean,
+   title: string,
+   description: {
+      discOn?: string,
+      discTwo?: string,
+      discThree?: string,
+      discFour?: string,
+      discFive?: string,
+      discSix?: string,
+      discSeven?: string,
+      discEight?: string
+   }
+}
 
 const Main = () => {
    const [filter, setFilter] = useState(false);
+   const [loading, setLoading] = useState(true);
+   const [data, setData] = useState<ISetDate[]>([]);
+   
+   const getProducts = async() => {
+      try{
+         const response = await fetch('db.json');
+         const res = await response.json();
+         
+         setData(res.products);
+         setLoading(false);
+         
+      }
+      catch(error) {
+         setLoading(false);
+         console.error('Ошибка при загрузке данных:', error);
+         return null;
+      }
+   };
+         
+   useEffect(() => {
+      getProducts();
+   }, []);
 
    return (
       <main className={`${styles.main} container`}>
@@ -27,9 +69,9 @@ const Main = () => {
             }`}
          >
             <p className={styles.burger_filter}></p>
-            <MainMenu/>
+            <MainMenu data={data}/>
          </div>
-         <MainContent/>
+         <MainContent loading={loading} data={data}/>
       </main>
    )
 }
