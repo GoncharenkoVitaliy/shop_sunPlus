@@ -62,9 +62,9 @@
       }
       & .burger__container{
          display: block;
-         height: 100%;
       }
       & .burger__wrapper{
+         height: 100%;
          position: relative;
          background-color: inherit;
          border: none;
