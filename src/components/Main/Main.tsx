@@ -13,14 +13,23 @@ export interface ISetDate {
    popular: boolean,
    title: string,
    description: {
-      discOn?: string,
-      discTwo?: string,
-      discThree?: string,
-      discFour?: string,
-      discFive?: string,
-      discSix?: string,
-      discSeven?: string,
-      discEight?: string
+      "Установка ванны"?: string,
+      "Длина, см"?: number,
+      "Ширина, см"?: number,
+      "Форма"?: string,
+      "Конструкция дверей"?: string,
+      "Количество секций дверей"?: number,
+      "Толщина материала дверей, мм"?: number,
+      "Цвет полотна дверей"?: string,
+      "Тумба подвесная"?: true,
+      "Раковина"?: string,
+      "зеркало"?: string,
+      "Шкаф-Пенал"?: string,
+      "Материал"?: string,
+      "Форма душа"?: string,
+      "Высота штанги, см"?: number,
+      "Размер верхнего душа, мм"?: number,
+      "Высота, см"?: 40,
    }
 }
 

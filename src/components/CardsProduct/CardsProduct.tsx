@@ -12,7 +12,7 @@ const CardsProduct: React.FC<{ d: ISetDate }> = ({ d }) => {
             <ul className={styles.card__desc}>
                {Object.entries(d.description).map(([key, value]) => (
                   <li className={styles.card__elem} key={`${d.id}_${key}`}>
-                     {value}
+                     {`${key} - ${value}`}
                   </li>
                ))}
             </ul>

@@ -1,7 +1,6 @@
 import styles from './MainNavCategories.module.css';
 
 const MainNavCategories = ({dataCategories}: {dataCategories: string[]}) => {
-   console.log(dataCategories);
    return (
       <ul className={styles.filter__typeList}>
          {dataCategories.map((category: string) => {

@@ -2,546 +2,534 @@
    "products": [
       {
          "id": 1,
+         "categories": "Ванна",
          "manufacturer": "Франция",
          "image": "https://cdn.vseinstrumenti.ru/images/goods/santehnicheskoe-oborudovanie/sanfayans/2225620/1200x800/54749890.jpg",
-         "categories": "Ванны",
-         "prace": 128000,
+         "price": 128000,
          "popular": false,
-         "title": "Чугунные ванны",
+         "title": "Ванна чугунная",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные",
-            "discSix": "Круглые и овальные",
-            "discSeven": "Круглые и овальные",
-            "discEight": "Круглые и овальные"
+            "Установка ванны": "Пристенная, Встраиваемая",
+            "Длина, см": 170,
+            "Ширина, см": 50
          }
       },
       {
          "id": 2,
+         "categories": "Ванны",
          "manufacturer": "Франция",
          "image": "https://megavanna.ru/upload/iblock/750/750babd9d704024e9faa3ae87827c46d.jpg",
-         "categories": "Ванны",
-         "prace": 127000,
+         "price": 127000,
          "popular": false,
-         "title": "Прямоугольные",
+         "title": "Ванна чугунная",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм"
+            "Установка ванны": "Пристенная, Встраиваемая",
+            "Длина, см": 170,
+            "Ширина, см": 70
          }
       },
       {
          "id": 3,
+         "categories": "Ванны",
          "manufacturer": "Италия",
          "image": "https://cdn.vseinstrumenti.ru/images/goods/santehnicheskoe-oborudovanie/sanfayans/2225620/1200x800/54749890.jpg",
-         "categories": "Ванны",
-         "prace": 125000,
+         "price": 125000,
          "popular": true,
-         "title": "Угловые симметричные",
+         "title": "Ванна чугунная",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные"
+            "Установка ванны": "Пристенная, Встраиваемая",
+            "Длина, см": 170,
+            "Ширина, см": 80
          }
       },
       {
          "id": 4,
+         "categories": "Ванны",
          "manufacturer": "Италия",
          "image": "https://cdn.vseinstrumenti.ru/images/goods/santehnicheskoe-oborudovanie/sanfayans/2225620/1200x800/54749890.jpg",
-         "categories": "Ванны",
-         "prace": 115000,
+         "price": 115000,
          "popular": true,
-         "title": "Угловые ассиметричные",
+         "title": "Ванна чугунная",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные"
+            "Установка ванны": "Пристенная, Встраиваемая",
+            "Длина, см": 170,
+            "Ширина, см": 80
          }
       },
       {
          "id": 5,
+         "categories": "Ванны",
          "manufacturer": "Италия",
          "image": "https://www.imperial-bathrooms.co.uk/wp-content/uploads/Waldorf-single-ended-bath-0-tap-holes-with-chrome-ball-and-claw-feet-3.jpg",
-         "categories": "Ванны",
-         "prace": 130000,
+         "price": 130000,
          "popular": false,
-         "title": "Других форм",
+         "title": "Ванна акриловая",
          "description": {
-            "discOn": "Прямоугольные"
+            "Установка ванны": "Встраиваемая",
+            "Длина, см": 170,
+            "Ширина, см": 80
          }
       },
       {
          "id": 6,
+         "categories": "Ванны",
          "manufacturer": "Греция",
          "image": "https://megavanna.ru/upload/iblock/750/750babd9d704024e9faa3ae87827c46d.jpg",
-         "categories": "Ванны",
-         "prace": 118000,
+         "price": 118000,
          "popular": true,
-         "title": "Гидромассажные ванны",
+         "title": "Ванна стальная",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discFree": "Круглые и овальные"
+            "Установка ванны": "Пристенная",
+            "Длина, см": 170,
+            "Ширина, см": 70
          }
       },
       {
          "id": 7,
+         "categories": "Ванны",
          "manufacturer": "Греция",
          "image": "https://megavanna.ru/upload/iblock/750/750babd9d704024e9faa3ae87827c46d.jpg",
-         "categories": "Ванны",
-         "prace": 130000,
+         "price": 130000,
          "popular": false,
-         "title": "Круглые и овальные",
+         "title": "Ванна стальная",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Установка ванны": "Пристенная",
+            "Длина, см": 170,
+            "Ширина, см": 80
          }
       },
       {
          "id": 8,
+         "categories": "Душевая кабина",
          "manufacturer": "Греция",
          "image": "https://www.san-tun.ru/upload/iblock/061/0612da19b2ea391d6820bc22ea1dd1de.jpg",
-         "categories": "Душевая кабина",
-         "prace": 110000,
+         "price": 110000,
          "popular": false,
          "title": "Полукруглые душевые уголки",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Форма": "Четверть круга",
+            "Материал": "Стекло",
+            "Конструкция дверей": "Распашные",
+            "Количество секций дверей": 2,
+            "Толщина материала дверей, мм": 5,
+            "Цвет полотна дверей": "Прозрачный"
          }
       },
       {
          "id": 9,
+         "categories": "Душевая кабина",
          "manufacturer": "Греция",
          "image": "https://www.san-tun.ru/upload/iblock/061/0612da19b2ea391d6820bc22ea1dd1de.jpg",
-         "categories": "Душевая кабина",
-         "prace": 112000,
+         "price": 112000,
          "popular": false,
          "title": "Прямоугольные душевые уголки",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Форма": "Четверть круга",
+            "Материал": "Стекло",
+            "Конструкция дверей": "Распашные",
+            "Количество секций дверей": 2,
+            "Толщина материала дверей, мм": 5,
+            "Цвет полотна дверей": "Матовый"
          }
       },
       {
          "id": 10,
+         "categories": "Душевая кабина",
          "manufacturer": "Турция",
          "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
-         "categories": "Душевая кабина",
-         "prace": 109000,
+         "price": 109000,
          "popular": false,
-         "title": "Душевые двери",
+         "title": "Полукруглые душевые уголки",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Других форм",
-            "discFour": "Круглые и овальные"
+            "Форма": "Четверть круга",
+            "Материал": "Стекло",
+            "Конструкция дверей": "Распашные",
+            "Количество секций дверей": 1,
+            "Толщина материала дверей, мм": 4,
+            "Цвет полотна дверей": "Прозрачный"
          }
       },
       {
          "id": 11,
+         "categories": "Душевая кабина",
          "manufacturer": "Турция",
          "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
-         "categories": "Душевая кабина",
-         "prace": 109000,
+         "price": 109000,
          "popular": false,
-         "title": "Душевые двери",
+         "title": "Полукруглые душевые уголки",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Других форм",
-            "discFour": "Круглые и овальные"
+            "Форма": "Четверть круга",
+            "Материал": "Стекло",
+            "Конструкция дверей": "Распашные",
+            "Количество секций дверей": 2,
+            "Толщина материала дверей, мм": 4,
+            "Цвет полотна дверей": "С рисунком"
          }
       },
       {
          "id": 12,
+         "categories": "Душевая кабина",
          "manufacturer": "Турция",
          "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
-         "categories": "Душевая кабина",
-         "prace": 109000,
+         "price": 109000,
          "popular": false,
-         "title": "Душевые двери",
+         "title": "Прямоугольные душевые уголки",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Других форм",
-            "discFour": "Круглые и овальные"
+            "Форма": "Пятиугольные",
+            "Материал": "Стекло",
+            "Конструкция дверей": "Распашные",
+            "Количество секций дверей": 1,
+            "Толщина материала дверей, мм": 6,
+            "Цвет полотна дверей": "С рисунком"
          }
       },
       {
          "id": 13,
+         "categories": "Душевая кабина",
          "manufacturer": "Турция",
          "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
-         "categories": "Душевая кабина",
-         "prace": 109000,
+         "price": 109000,
          "popular": false,
-         "title": "Душевые двери",
+         "title": "Прямоугольные душевые уголки",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Других форм",
-            "discFour": "Круглые и овальные"
+            "Форма": "Пятиугольные",
+            "Материал": "Стекло",
+            "Конструкция дверей": "Распашные",
+            "Количество секций дверей": 2,
+            "Толщина материала дверей, мм": 6,
+            "Цвет полотна дверей": "С рисунком"
          }
       },
       {
          "id": 14,
+         "categories": "Душевая кабина",
          "manufacturer": "Турция",
          "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
-         "categories": "Душевая кабина",
-         "prace": 109000,
+         "price": 109000,
          "popular": false,
-         "title": "Душевые двери",
+         "title": "Прямоугольные душевые уголки",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Других форм",
-            "discFour": "Круглые и овальные"
+            "Форма": "Пятиугольные",
+            "Материал": "Стекло",
+            "Конструкция дверей": "Распашные",
+            "Количество секций дверей": 1,
+            "Толщина материала дверей, мм": 6,
+            "Цвет полотна дверей": "Матовый"
          }
       },
       {
          "id": 15,
+         "categories": "Мебель для ванной",
          "manufacturer": "Греция",
          "image": "https://nkz.meduzza.ru/upload/iblock/57f/57f7f0100f51f3da19136112318562c6.jpg",
-         "categories": "Мебель для ванной",
-         "prace": 111000,
+         "price": 111000,
          "popular": false,
          "title": "Комплекты",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Тумба подвесная": "Да",
+            "Раковина": "Да",
+            "Зеркало": "Нет",
+            "Шкаф-Пенал": "Нет"
          }
       },
       {
          "id": 16,
+         "categories": "Мебель для ванной",
          "manufacturer": "Франция",
          "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
-         "categories": "Мебель для ванной",
-         "prace": 98000,
+         "price": 98000,
          "popular": true,
          "title": "Модульная мебель",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Круглые и овальные"
+            "Тумба подвесная": "Нет",
+            "Раковина": "Да",
+            "Зеркало": "Нет",
+            "Шкаф-Пенал": "Нет"
          }
       },
       {
          "id": 17,
+         "categories": "Мебель для ванной",
          "manufacturer": "Франция",
          "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
-         "categories": "Мебель для ванной",
-         "prace": 99000,
+         "price": 99000,
          "popular": true,
          "title": "Пеналы",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Тумба подвесная": "Да",
+            "Раковина": "Да",
+            "Зеркало": "Нет",
+            "Шкаф-Пенал": "Нет"
          }
       },
       {
          "id": 18,
+         "categories": "Мебель для ванной",
          "manufacturer": "Франция",
          "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
-         "categories": "Мебель для ванной",
-         "prace": 99000,
+         "price": 99000,
          "popular": true,
          "title": "Пеналы",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Тумба подвесная": "Да",
+            "Раковина": "Да",
+            "Зеркало": "Да",
+            "Шкаф-Пенал": "Нет"
          }
       },
       {
          "id": 19,
+         "categories": "Мебель для ванной",
          "manufacturer": "Франция",
          "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
-         "categories": "Мебель для ванной",
-         "prace": 99000,
+         "price": 99000,
          "popular": true,
          "title": "Пеналы",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Тумба подвесная": "Нет",
+            "Раковина": "Да",
+            "Зеркало": "Да",
+            "Шкаф-Пенал": "Да"
          }
       },
       {
          "id": 20,
+         "categories": "Мебель для ванной",
          "manufacturer": "Франция",
          "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
-         "categories": "Мебель для ванной",
-         "prace": 99000,
+         "price": 99000,
          "popular": true,
          "title": "Пеналы",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Тумба подвесная": "Да",
+            "Раковина": "Да",
+            "Зеркало": "Да",
+            "Шкаф-Пенал": "Да"
          }
       },
       {
          "id": 21,
+         "categories": "Мебель для ванной",
          "manufacturer": "Франция",
          "image": "https://aquarel-pro.ru/catalog_info/mebel/shkafy-penaly/img/74162-shkaf-penal-aquaton-ariya-m-belyiy-2.jpg",
-         "categories": "Мебель для ванной",
-         "prace": 99000,
+         "price": 99000,
          "popular": true,
          "title": "Пеналы",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Тумба подвесная": "Да",
+            "Раковина": "Да",
+            "Зеркало": "Да",
+            "Шкаф-Пенал": "Да"
          }
       },
       {
          "id": 22,
+         "categories": "Стойка душевая",
          "manufacturer": "Греция",
          "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
-         "categories": "Стойка душевая",
-         "prace": 8000,
+         "price": 8000,
          "popular": false,
-         "title": "Душевые панели",
+         "title": "Душевой комплект",
          "description": {
-            "discOn": "Угловые симметричные",
-            "discTwo": "Угловые ассиметричные",
-            "discThree": "Других форм",
-            "discFour": "Круглые и овальные"
+            "Материал": "Нержавеющая сталь, Пластик",
+            "Форма душа": "Квадратная",
+            "Высота штанги, см": 110,
+            "Размер верхнего душа, мм": 250
          }
       },
       {
          "id": 23,
+         "categories": "Стойка душевая",
          "manufacturer": "Италия",
          "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
-         "categories": "Стойка душевая",
-         "prace": 9500,
+         "price": 9500,
          "popular": true,
-         "title": "Тропический душ",
+         "title": "Душевой комплект",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Материал": "Латунь, Пластик",
+            "Форма душа": "Квадратная",
+            "Высота штанги, см": 110,
+            "Размер верхнего душа, мм": 250
          }
       },
       {
          "id": 24,
+         "categories": "Стойка душевая",
          "manufacturer": "Италия",
          "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
-         "categories": "Стойка душевая",
-         "prace": 8000,
+         "price": 8000,
          "popular": true,
-         "title": "Системы скрытого монтажа",
+         "title": "Душевой комплект",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Материал": "Латунь, Пластик",
+            "Форма душа": "Круг",
+            "Высота штанги, см": 80,
+            "Размер верхнего душа, мм": 250
          }
       },
       {
          "id": 25,
+         "categories": "Стойка душевая",
          "manufacturer": "Италия",
          "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
-         "categories": "Стойка душевая",
-         "prace": 8000,
+         "price": 8000,
          "popular": true,
-         "title": "Системы скрытого монтажа",
+         "title": "Душевой комплект",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Материал": "Нержавеющая сталь, Пластик",
+            "Форма душа": "Квадратная",
+            "Высота штанги, см": 110,
+            "Размер верхнего душа, мм": 250
          }
       },
       {
          "id": 26,
+         "categories": "Стойка душевая",
          "manufacturer": "Италия",
          "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
-         "categories": "Стойка душевая",
-         "prace": 8000,
+         "price": 8000,
          "popular": true,
-         "title": "Системы скрытого монтажа",
+         "title": "Душевой комплект",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Материал": "Латунь, Пластик",
+            "Форма душа": "Круг",
+            "Высота штанги, см": 90,
+            "Размер верхнего душа, мм": 250
          }
       },
       {
          "id": 27,
+         "categories": "Стойка душевая",
          "manufacturer": "Италия",
          "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
-         "categories": "Стойка душевая",
-         "prace": 8000,
+         "price": 8000,
          "popular": true,
-         "title": "Системы скрытого монтажа",
+         "title": "Душевой комплект",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Материал": "Латунь, Пластик",
+            "Форма душа": "Квадратная",
+            "Высота штанги, см": 110,
+            "Размер верхнего душа, мм": 250
          }
       },
       {
          "id": 28,
+         "categories": "Стойка душевая",
          "manufacturer": "Италия",
          "image": "https://vanna-store.ru/image/cache/catalog/products/96/e9/96e97850600dc9648152edd4c5cf468e-700x700.jpg",
-         "categories": "Стойка душевая",
-         "prace": 8000,
+         "price": 8000,
          "popular": true,
-         "title": "Системы скрытого монтажа",
+         "title": "Душевой комплект",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Материал": "Нержавеющая сталь, Пластик",
+            "Форма душа": "Круг",
+            "Высота штанги, см": 90,
+            "Размер верхнего душа, мм": 250
          }
       },
       {
          "id": 29,
+         "categories": "Душевой поддон",
          "manufacturer": "Италия",
          "image": "https://aquavik.ru/wa-data/public/shop/products/19/96/69619/images/193859/193859.970.jpg",
-         "categories": "Душевой поддон",
-         "prace": 98000,
+         "price": 98000,
          "popular": false,
-         "title": "Полукруглый",
+         "title": "Прямоугольный",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Длина, см": 120,
+            "Ширина, см": 100,
+            "Высота, см": 40,
+            "Материал": "Фаянс"
          }
       },
       {
          "id": 30,
+         "categories": "Душевой поддон",
          "manufacturer": "Франция",
          "image": "https://aquavik.ru/wa-data/public/shop/products/19/96/69619/images/193859/193859.970.jpg",
-         "categories": "Душевой поддон",
-         "prace": 101000,
+         "price": 101000,
          "popular": true,
-         "title": "Полукруглый",
+         "title": "Прямоугольный",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Длина, см": 120,
+            "Ширина, см": 90,
+            "Высота, см": 14,
+            "Материал": "Керамика"
          }
       },
       {
          "id": 31,
+         "categories": "Душевой поддон",
          "manufacturer": "Италия",
          "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
-         "categories": "Душевой поддон",
-         "prace": 99000,
+         "price": 99000,
          "popular": false,
-         "title": "Полукруглый",
+         "title": "Прямоугольный",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Длина, см": 120,
+            "Ширина, см": 90,
+            "Высота, см": 45,
+            "Материал": "Керамика"
          }
       },
       {
          "id": 32,
+         "categories": "Душевой поддон",
          "manufacturer": "Италия",
          "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
-         "categories": "Душевой поддон",
-         "prace": 99000,
+         "price": 99000,
          "popular": false,
-         "title": "Полукруглый",
+         "title": "Прямоугольный",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Длина, см": 120,
+            "Ширина, см": 90,
+            "Высота, см": 30,
+            "Материал": "Фаянс"
          }
       },
       {
          "id": 33,
+         "categories": "Душевой поддон",
          "manufacturer": "Италия",
          "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
-         "categories": "Душевой поддон",
-         "prace": 99000,
+         "price": 99000,
          "popular": false,
-         "title": "Полукруглый",
+         "title": "Прямоугольный",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Длина, см": 120,
+            "Ширина, см": 90,
+            "Высота, см": 35,
+            "Материал": "Керамика"
          }
       },
       {
          "id": 34,
+         "categories": "Душевой поддон",
          "manufacturer": "Италия",
          "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
-         "categories": "Душевой поддон",
-         "prace": 99000,
+         "price": 99000,
          "popular": false,
          "title": "Полукруглый",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Длина, см": 90,
+            "Ширина, см": 90,
+            "Высота, см": 40,
+            "Материал": "Керамика"
          }
       },
       {
          "id": 35,
+         "categories": "Душевой поддон",
          "manufacturer": "Турция",
          "image": "https://svdd.ru/79884/poddon-dushevoj-akrilovyj-90x90x26sm-river-9026-c.jpg",
-         "categories": "Душевой поддон",
-         "prace": 102000,
+         "price": 102000,
          "popular": false,
          "title": "Полукруглый",
          "description": {
-            "discOn": "Прямоугольные",
-            "discTwo": "Угловые симметричные",
-            "discThree": "Угловые ассиметричные",
-            "discFour": "Других форм",
-            "discFive": "Круглые и овальные"
+            "Длина, см": 90,
+            "Ширина, см": 90,
+            "Высота, см": 14,
+            "Материал": "Стальной эмаль"
          }
       }
    ]

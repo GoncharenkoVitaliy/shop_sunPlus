@@ -1,6 +1,20 @@
-import styles from './MainCategories.module.css';
+/* eslint no-use-before-define: 0 */  // --> OFF
 
-const MainCategories = () => {
+// import { ISetDate } from '../Main';
+import styles from './MainCategories.module.css';
+import { useEffect } from 'react';
+
+const MainCategories = ({data}: any) => {
+   
+   const dataDescriptionFunc = () => {
+      const uniqueDescriptions = Array.from(new Set(data.flatMap((product: any) => Object.values(product.description))));
+
+      console.log(uniqueDescriptions);
+   }
+
+   useEffect(() => {
+      dataDescriptionFunc();
+   }, [])
 
    return (
       <menu className={styles.menu__categories}>
