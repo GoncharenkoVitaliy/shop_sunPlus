@@ -21,7 +21,7 @@ export interface ISetDate {
       "Количество секций дверей"?: number,
       "Толщина материала дверей, мм"?: number,
       "Цвет полотна дверей"?: string,
-      "Тумба подвесная"?: true,
+      "Тумба подвесная"?: boolean,
       "Раковина"?: string,
       "зеркало"?: string,
       "Шкаф-Пенал"?: string,
@@ -29,7 +29,7 @@ export interface ISetDate {
       "Форма душа"?: string,
       "Высота штанги, см"?: number,
       "Размер верхнего душа, мм"?: number,
-      "Высота, см"?: 40,
+      "Высота, см"?: number,
    }
 }
 
@@ -60,12 +60,14 @@ const Main = () => {
 
    return (
       <main className={`${styles.main} container`}>
-         <button
-            className={styles.filter__button}
+         <div
+            className={styles.wrapper__button}
             onClick={() => setFilter(!filter)}
          >
-            Фильтр
-         </button>
+            <button className={styles.button}>
+               Изменить параметры поиска
+            </button>
+         </div>
          <div className={styles.wrapper__decor}>
             <Decor />
          </div>
@@ -77,7 +79,6 @@ const Main = () => {
                : styles.wrapper__menu
             }`}
          >
-            <p className={styles.burger_filter}></p>
             <MainMenu data={data}/>
          </div>
          <MainContent loading={loading} data={data}/>

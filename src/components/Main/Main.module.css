@@ -1,11 +1,10 @@
 .main {
-  position:relative;
+  position: relative;
   z-index: 1;
   display: flex;
   justify-content:left;
-  & .filter__button {
+  & .wrapper__button{
     display: none;
-    /* position: absolute; */
   }
   & .wrapper__decor {
     z-index: -1;
@@ -23,15 +22,37 @@
 }
 @media(max-width: 950px){
   .main {
-    & .filter__button {
-      display: block;
-      position: absolute;
-      z-index: 11;
-      top: 0px;
-      left: 0;
-      /* border: none; */
-      /* background: transparent; */
-      font-size: 1.25rem;
+    & .wrapper__button{
+      display:block;
+      position: fixed;
+      top: 170px;
+      left: 20px;
+      z-index: 1100;
+      & .button {
+        cursor: pointer;
+        border: none;
+        text-align: start;
+        padding-left: 30px;
+        /* color: var(--header); */
+        background: transparent;
+        width: 100%;
+        position: relative;
+      }
+      & .button:hover{
+        text-decoration: underline;
+      }
+      & .button::before{
+        position: absolute;
+        text-align: center;
+        content: '';
+        width: 40px;
+        height: 27px;
+        background: url(../images/menu/settings.png) no-repeat left/55%;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        padding:0;
+      }
     }
     & .wrapper__menu{
       transition: all .4s linear;
@@ -53,26 +74,5 @@
     & .active__wrapper_menu {
       left: 0px;
     }
-    & .burger_filter{
-      display: block;
-      height: 30px;
-      position: absolute;
-      background-color: inherit;
-      border: none;
-      left: 30px;
-      top: -40px;
-      cursor: pointer;
-      font-size: 1.25rem;
-    }
-    & .burger_filter:hover{
-      scale: 1.1;
-    }
   }
-  /* & .main::before{
-    content:'Фильтр';
-    font-size: 1.25rem;
-    position: fixed;
-    top: 170px;
-    left: 10px;
-  } */
 }

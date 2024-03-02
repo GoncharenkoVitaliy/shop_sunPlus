@@ -27,11 +27,6 @@ const MainNav = ({data}: {data: Array<{manufacturer: string, categories: string}
                   />
                </li>
             </ul>
-            <div className={styles.wrapper__button}>
-               <button className={styles.button}>
-                  Изменить параметры поиска
-               </button>
-            </div>
          </div>
       </nav>
    )

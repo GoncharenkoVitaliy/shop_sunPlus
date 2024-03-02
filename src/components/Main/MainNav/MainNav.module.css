@@ -55,35 +55,6 @@
       }
    }
 }
-.wrapper__button{
-   border-top: 1px solid var(--gray);
-   padding-top: 20px;
-   & .button {
-   cursor: pointer;
-   border: none;
-   text-align: start;
-   padding-left: 30px;
-   color: var(--header);
-   background: transparent;
-   width: 100%;
-   position: relative;
-   }
-   & .button:hover{
-      text-decoration: underline;
-   }
-   & .button::before{
-      position: absolute;
-      text-align: center;
-      content: '';
-      width: 40px;
-      height: 27px;
-      background: url(../../images/menu/settings.png) no-repeat left/55%;
-      left: 0px;
-      top: 50%;
-      transform: translateY(-50%);
-      padding:0;
-   }
-}
 @media (prefers-color-scheme: dark) {
    .menu__filters {
       color-scheme: light dark;
