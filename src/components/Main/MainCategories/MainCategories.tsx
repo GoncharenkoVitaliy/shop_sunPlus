@@ -1,11 +1,14 @@
 
+// import { Dispatch } from '@reduxjs/toolkit';
+// import { ISetDate, descriptionType } from '../Main';
 import { ISetDate } from '../Main';
 import styles from './MainCategories.module.css';
 import { useEffect, useState } from 'react';
 
 const MainCategories = ({data}: {data: ISetDate[]}) => {
    console.log(data);
-   const [uniqueDescriptions, setUniqueDescriptions]: [string[], Dispatch<SetStateAction<string[]>>] = useState<string[]>([]);
+   const [uniqueDescriptions, setUniqueDescriptions]: any = useState([]);
+   // const [uniqueDescriptions, setUniqueDescriptions]: [descriptionType[], Dispatch<SetStateAction<descriptionType[]>>] = useState([]);
    
    const dataDescriptionFunc = () => {
       setUniqueDescriptions(() => {
@@ -21,7 +24,7 @@ const MainCategories = ({data}: {data: ISetDate[]}) => {
 
    return (
       <menu className={styles.menu__categories}>
-         {uniqueDescriptions.map((item) => {
+         {uniqueDescriptions.map((item: any) => {
             return (
                <li className={styles.categories__item} key={item}>
                   {item}

@@ -4,6 +4,8 @@ import MainContent from './MainContent/MainContent';
 import Decor from '../Decor/Decor';
 import { useEffect, useState } from 'react';
 
+export type descriptionType = string | number | boolean;
+
 export interface ISetDate {
    id: number,
    manufacturer: string,
@@ -13,24 +15,8 @@ export interface ISetDate {
    popular: boolean,
    title: string,
    description: {
-      "Установка ванны"?: string,
-      "Длина, см"?: number,
-      "Ширина, см"?: number,
-      "Форма"?: string,
-      "Конструкция дверей"?: string,
-      "Количество секций дверей"?: number,
-      "Толщина материала дверей, мм"?: number,
-      "Цвет полотна дверей"?: string,
-      "Тумба подвесная"?: boolean,
-      "Раковина"?: string,
-      "зеркало"?: string,
-      "Шкаф-Пенал"?: string,
-      "Материал"?: string,
-      "Форма душа"?: string,
-      "Высота штанги, см"?: number,
-      "Размер верхнего душа, мм"?: number,
-      "Высота, см"?: number,
-   }
+      [key: string]: descriptionType;
+    }
 }
 
 const Main = () => {
