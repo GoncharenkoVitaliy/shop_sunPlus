@@ -1,9 +1,9 @@
+import { ISetDate } from '../Main';
 import MainCategories from '../MainCategories/MainCategories';
 import MainNav from '../MainNav/MainNav';
 import styles from './MainMenu.module.css';
 
-const MainMenu = ({data}: any) => {
-// const MainMenu = ({data}: {data: Array<{manufacturer: string, categories: string}>}) => {
+const MainMenu = ({data}: {data: Array<ISetDate>}) => {
 
    return (
       <section className={styles.main__menu}>

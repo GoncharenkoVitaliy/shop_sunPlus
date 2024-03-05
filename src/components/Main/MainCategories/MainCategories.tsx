@@ -1,21 +1,33 @@
 
 // import { Dispatch } from '@reduxjs/toolkit';
-// import { ISetDate, descriptionType } from '../Main';
 import { ISetDate } from '../Main';
 import styles from './MainCategories.module.css';
 import { useEffect, useState } from 'react';
 
-const MainCategories = ({data}: {data: ISetDate[]}) => {
-   console.log(data);
-   const [uniqueDescriptions, setUniqueDescriptions]: any = useState([]);
-   // const [uniqueDescriptions, setUniqueDescriptions]: [descriptionType[], Dispatch<SetStateAction<descriptionType[]>>] = useState([]);
+const MainCategories = ({data}: {data: Array<ISetDate>}) => {
+   const [uniqueDescriptions, setUniqueDescriptions] = useState<string[]>([]);
    
-   const dataDescriptionFunc = () => {
-      setUniqueDescriptions(() => {
-         return Array.from(new Set(data.flatMap((product) => Object.values(product.description))))
-      });
+   // из data дастаем description{}
+   const variable: object[] = [];
+   // из variable достаем key[]
+   const keyDescription: string[] = [];
 
-      // console.log(uniqueDescriptions);
+   const dataDescriptionFunc = () => {
+      data.forEach((item) => {
+         variable.push(item.description);
+      })
+
+      variable.flatMap((element) => {
+         for(let i = 0; i < Object.keys(element).length; i++){
+            for(const key in element){
+               keyDescription.push(key);
+            }
+         }
+      })
+
+      setUniqueDescriptions( () => {
+         return [...new Set(keyDescription)]
+      }) 
    }
 
    useEffect(() => {
@@ -24,10 +36,10 @@ const MainCategories = ({data}: {data: ISetDate[]}) => {
 
    return (
       <menu className={styles.menu__categories}>
-         {uniqueDescriptions.map((item: any) => {
+         {uniqueDescriptions.map((element, key) => {
             return (
-               <li className={styles.categories__item} key={item}>
-                  {item}
+               <li className={styles.categories__item} key={key}>
+                  {element}
                </li>
             )
          })}

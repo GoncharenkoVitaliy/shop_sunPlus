@@ -16,7 +16,7 @@ export interface ISetDate {
    title: string,
    description: {
       [key: string]: descriptionType;
-    }
+   }
 }
 
 const Main = () => {
@@ -24,6 +24,7 @@ const Main = () => {
    const [loading, setLoading] = useState(true);
    const [data, setData] = useState<ISetDate[]>([]);
    
+   // читаем данные из файла db.json
    const getProducts = async() => {
       try{
          const response = await fetch('db.json');
