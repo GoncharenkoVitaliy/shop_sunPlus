@@ -2,7 +2,7 @@
    position: relative;
    top: auto;
    height: 50px;
-   z-index: 2;
+   /* z-index: 1; */
    display: flex;
    justify-content: center;
    border-top: 1px solid var(--header);
@@ -14,6 +14,7 @@
       display: flex;
       justify-content: space-around;
       & .navbar__item{
+         z-index: 2;
          cursor: pointer;
          padding: 0 10px;
          font-weight:700;

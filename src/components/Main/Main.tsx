@@ -52,7 +52,7 @@ const Main = () => {
             onClick={() => setFilter(!filter)}
          >
             <button className={styles.button}>
-               Изменить параметры поиска
+               Параметры поиска
             </button>
          </div>
          <div className={styles.wrapper__decor}>

@@ -3,6 +3,7 @@
    & .decorOne {
       background: url("../images/header/decor-water4.png") 0 0/100% no-repeat;
       position: absolute;
+      /* z-index: -2; */
       padding: 0;
       top: -40px;
       left: -30px;

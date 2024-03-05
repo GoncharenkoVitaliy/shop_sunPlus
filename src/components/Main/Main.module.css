@@ -24,21 +24,25 @@
   .main {
     & .wrapper__button{
       display:block;
-      position: fixed;
-      top: 170px;
+      position: absolute;
+      top: -35px;
+      /* top: 130px; */
       left: 20px;
-      z-index: 1100;
+      z-index: 2;
       & .button {
+        font-size: 1.25rem;
         cursor: pointer;
         border: none;
         text-align: start;
         padding-left: 30px;
-        /* color: var(--header); */
         background: transparent;
         width: 100%;
         position: relative;
+        /* writing-mode: vertical-lr; 
+        text-orientation: upright;  */
       }
       & .button:hover{
+        /* scale: 1.1; */
         text-decoration: underline;
       }
       & .button::before{
