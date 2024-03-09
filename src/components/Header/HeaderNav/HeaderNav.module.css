@@ -48,8 +48,8 @@
          align-items: flex-end;
          justify-content: flex-start;
          background-color: var(--burger);
-         width: 100vw;
-         left: 100vw;
+         width: 110vw;
+         left: 110%;
          padding-top: 70px;
          min-height: 800px;
          & .navbar__item{
@@ -60,7 +60,7 @@
          }
       }
       & .active__list {
-         left: -20px;
+         left: -5vw;
       }
       & .burger__container{
          display: block;
@@ -147,9 +147,6 @@
          & .navbar__item{
             padding: 0 70px 0 0;
          }
-      }
-      & .active__list {
-         left: -10px;
       }
    }
 }
