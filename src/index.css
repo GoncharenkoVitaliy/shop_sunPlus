@@ -58,6 +58,12 @@ body {
   color: var(--dark);
   overflow-x: hidden;
 }
+/* @media(max-width: 999px){
+  body {
+    overflow-x: hidden;
+  }
+} */
+
 
 /* Дополнительные стили для темной цветовой схемы */
 @media (prefers-color-scheme: dark) {

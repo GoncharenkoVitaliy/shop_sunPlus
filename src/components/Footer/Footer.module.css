@@ -10,16 +10,16 @@
       justify-content: space-between;
       align-items: center;
       background: var(--footer);
+      padding: 20px;
       & .copyright{
          width: 220px;
          font-size: 0.857rem;
       }
    }
 }
-@media(max-width: 590px){
+@media(max-width: 600px){
    .footer {
       height: 100%;
-      padding-top: 20px;
       & .wrapper {
          display: flex;
          flex-direction: column;
