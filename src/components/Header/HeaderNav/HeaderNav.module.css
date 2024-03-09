@@ -39,7 +39,8 @@
       right: 0;
       bottom: 0;
       left: 0;
-      z-index: 2;
+      /* z-index: 2; */
+      /* opacity: .99; */
       & .navbar__list{
          transition: all .4s linear;
          display: flex;
@@ -50,8 +51,11 @@
          background-color: var(--burger);
          width: 110vw;
          left: 110%;
+         top: 49px;
+         /* border: 1px solid red; */
          padding-top: 70px;
          min-height: 800px;
+         z-index: 2;
          & .navbar__item{
             justify-content: flex-end;
             padding: 0 90px 0 0;

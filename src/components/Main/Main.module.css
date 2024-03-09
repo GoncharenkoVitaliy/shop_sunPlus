@@ -26,9 +26,7 @@
       display:block;
       position: absolute;
       top: -35px;
-      /* top: 130px; */
       left: 20px;
-      z-index: 2;
       & .button {
         font-size: 1.25rem;
         cursor: pointer;
@@ -38,11 +36,8 @@
         background: transparent;
         width: 100%;
         position: relative;
-        /* writing-mode: vertical-lr; 
-        text-orientation: upright;  */
       }
       & .button:hover{
-        /* scale: 1.1; */
         text-decoration: underline;
       }
       & .button::before{
