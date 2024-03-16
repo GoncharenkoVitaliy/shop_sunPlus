@@ -1,8 +1,9 @@
-import styles from './Main.module.css';
+import styles from './MainGeneral.module.css';
 import MainMenu from './MainMenu/MainMenu';
 import MainContent from './MainContent/MainContent';
 import Decor from '../Decor/Decor';
 import { useEffect, useState } from 'react';
+import MainCarousel from './MainCarousel/MainCarousel';
 
 export type descriptionType = string | number | boolean;
 
@@ -32,7 +33,6 @@ const Main = () => {
          
          setData(res.products);
          setLoading(false);
-         
       }
       catch(error) {
          setLoading(false);
@@ -46,30 +46,35 @@ const Main = () => {
    }, []);
 
    return (
-      <main className={`${styles.main} container`}>
-         <div
-            className={styles.wrapper__button}
-            onClick={() => setFilter(!filter)}
-         >
-            <button className={styles.button}>
-               Параметры поиска
-            </button>
+      <section className={styles.main}>
+         <div className={styles.main__carousel}>
+            <MainCarousel  data={data}/>
          </div>
-         <div className={styles.wrapper__decor}>
-            <Decor />
-         </div>
-         <div
-            className={`
-            ${styles.wrapper__menu} 
-            ${filter
-               ? styles.active__wrapper_menu
-               : styles.wrapper__menu
-            }`}
-         >
-            <MainMenu data={data}/>
-         </div>
-         <MainContent loading={loading} data={data}/>
-      </main>
+         <main className={`${styles.main__general}`}>
+            <div
+               className={styles.wrapper__button}
+               onClick={() => setFilter(!filter)}
+            >
+               <button className={styles.button}>
+                  Фильтр
+               </button>
+            </div>
+            <div className={styles.wrapper__decor}>
+               <Decor />
+            </div>
+            <div
+               className={`
+               ${styles.wrapper__menu} 
+               ${filter
+                  ? styles.active__wrapper_menu
+                  : styles.wrapper__menu
+               }`}
+            >
+               <MainMenu data={data}/>
+            </div>
+            <MainContent loading={loading} data={data}/>
+         </main>
+      </section>
    )
 }
 

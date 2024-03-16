@@ -54,7 +54,7 @@
          position: relative;
          & .logoWrapImg{
             top: 10px;
-            left: 60px;
+            left: 0px;
          }
          .logoTextBlock {
             display: none;

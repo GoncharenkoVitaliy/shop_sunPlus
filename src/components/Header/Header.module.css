@@ -1,6 +1,6 @@
 .header{
    color:var(--white);
-   min-width: 100vw;
+   width: 100vw;
    background-color: var(--header);
    position: relative;
    & .headerImage {
@@ -17,7 +17,21 @@
 @media(max-width: 999px){
    .header{
       & .headerImage {
-         background: url("../images/header/brizgi_ob.webp") 0 0/100% no-repeat;
+         background: url("../images/header/brizgi_ob.webp") 0 0/auto 100% no-repeat;
       }
    }
 }
+@media(max-width: 450px){
+   .header{
+      & .headerImage {
+         background: none;
+      }
+   }
+}
+/* @media(max-width: 914px){
+   .header{
+      & .headerImage {
+         background: url("../images/header/brizgi_ob.webp") 80% 50%/100% no-repeat;
+      }
+   }
+} */

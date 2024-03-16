@@ -2,7 +2,6 @@
    position: relative;
    top: auto;
    height: 50px;
-   /* z-index: 1; */
    display: flex;
    justify-content: center;
    border-top: 1px solid var(--header);
@@ -39,10 +38,8 @@
       right: 0;
       bottom: 0;
       left: 0;
-      /* z-index: 2; */
-      /* opacity: .99; */
       & .navbar__list{
-         transition: all .4s linear;
+         transition: all .3s linear;
          display: flex;
          position: absolute;
          flex-direction: column;

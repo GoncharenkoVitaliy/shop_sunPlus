@@ -1,0 +1,6 @@
+.wrapper__carousel {
+   display: flex;
+   min-width: 100%;
+   position: absolute;
+   z-index: 2;
+}

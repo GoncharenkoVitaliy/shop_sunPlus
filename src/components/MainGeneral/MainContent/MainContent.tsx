@@ -1,7 +1,7 @@
 import styles from './MainContent.module.css';
 import Spinner from '../../spinner/Spinner';
 import CardsProduct from '../../CardsProduct/CardsProduct';
-import { ISetDate } from '../Main';
+import { ISetDate } from '../MainGeneral';
 
 
 const MainContent = ({loading, data}: {loading: boolean, data: ISetDate[]}) => {

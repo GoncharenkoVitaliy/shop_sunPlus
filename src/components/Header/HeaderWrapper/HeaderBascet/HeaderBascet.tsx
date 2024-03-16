@@ -1,5 +1,5 @@
 import styles from './HeaderBascet.module.css';
-import bascet from '../../images/header/bascet.png';
+import bascet from '../../../images/header/bascet.png';
 
 const HeaderBascet = () => {
    return (

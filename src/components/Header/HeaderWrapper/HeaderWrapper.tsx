@@ -1,7 +1,7 @@
 import styles from './HeaderWrapper.module.css';
-import HeaderLogo from '../HeaderLogo/HeaderLogo';
-import HeaderAddress from '../HeaderAddress/HeaderAddress';
-import HeaderBascet from '../HeaderBascet/HeaderBascet';
+import HeaderLogo from './HeaderLogo/HeaderLogo';
+import HeaderAddress from './HeaderAddress/HeaderAddress';
+import HeaderBascet from './HeaderBascet/HeaderBascet';
 
 const HeaderWrapper = () => {
    return (

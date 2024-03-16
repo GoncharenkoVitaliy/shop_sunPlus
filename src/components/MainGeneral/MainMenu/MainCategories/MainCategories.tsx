@@ -1,6 +1,6 @@
 
 // import { Dispatch } from '@reduxjs/toolkit';
-import { ISetDate } from '../Main';
+import { ISetDate } from '../../MainGeneral';
 import styles from './MainCategories.module.css';
 import { useEffect, useState } from 'react';
 

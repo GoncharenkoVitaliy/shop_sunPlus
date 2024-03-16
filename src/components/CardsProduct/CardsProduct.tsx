@@ -1,4 +1,4 @@
-import { ISetDate } from '../Main/Main';
+import { ISetDate } from '../MainGeneral/MainGeneral';
 import styles from './CardsProduct.module.css';
 
 

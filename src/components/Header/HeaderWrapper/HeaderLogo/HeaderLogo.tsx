@@ -1,5 +1,5 @@
 import styles from './HeaderLogo.module.css';
-import kapliaLogo from '../../images/header/kaplia-logo.png';
+import kapliaLogo from '../../../images/header/kaplia-logo.png';
 import { Link } from 'react-router-dom';
 
 const HeaderLogo = () => {

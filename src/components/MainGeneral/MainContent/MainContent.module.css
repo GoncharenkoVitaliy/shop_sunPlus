@@ -1,6 +1,5 @@
 .main__content{
-   flex: 3;
-   /* z-index: -1; */
+   flex: 4;
    & .content__product{
       display: flex;
       flex-wrap: wrap;
@@ -18,8 +17,5 @@
 @media(max-width:560px){
    .main__content{
       padding: 0;
-      /* & .content__product{
-         justify-content: space-around;
-      } */
    }
 }

@@ -1,4 +1,4 @@
-import HeaderAddress from '../Header/HeaderAddress/HeaderAddress';
+import HeaderAddress from '../Header/HeaderWrapper/HeaderAddress/HeaderAddress';
 import styles from './Footer.module.css';
 
 const Footer = () => {

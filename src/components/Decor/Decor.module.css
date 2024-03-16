@@ -1,23 +1,24 @@
 .decor {
-   /* position: relative; */
    & .decorOne {
       background: url("../images/header/decor-water4.png") 0 0/100% no-repeat;
-      position: absolute;
-      /* z-index: -2; */
+      position: fixed;
       padding: 0;
-      top: -40px;
-      left: -30px;
-      width: 50%;
-      height: 170px;
+      margin:0;
+      top: 110px;
+      left: -10px;
+      width: 45%;
+      height: 100%;
    }
    & .decorTwo {
       background: url("../images/header/decor-water4.png") 0 100%/100% no-repeat;
       transform: rotate(180deg);
       padding: 0;
-      position:absolute;
-      width: 50%;
-      height: 170px;
-      top: -35px;
-      right: -30px;
+      margin:0;
+      /* position:absolute; */
+      position: fixed;
+      width: 45%;
+      height: 100%;
+      top: 120px;
+      right: -20px;
    }
 }
