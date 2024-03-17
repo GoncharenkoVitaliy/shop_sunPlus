@@ -1,5 +1,5 @@
 .content__card{
-   margin-top: 20px;
+   margin: 20px 0;
    background-color: var(--background-card);
    width: 220px;
    height: 298px;

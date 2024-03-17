@@ -60,6 +60,7 @@
       color-scheme: light dark;
       background-color: var(--darkBackgroundCard);
       color: var(--white);
+      box-shadow: 0px 0px 0px 1px #cde3e8;
       & .filter__wrapper{
          & .filter__catigories{
             & .filter__manufacturer{
