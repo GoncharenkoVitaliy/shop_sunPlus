@@ -2,8 +2,9 @@ import styles from './MainGeneral.module.css';
 import MainMenu from './MainMenu/MainMenu';
 import MainContent from './MainContent/MainContent';
 import Decor from '../../components/Decor/Decor';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import MainCarousel from './MainCarousel/MainCarousel';
+// import useClickOutside from '../../components/useClickOutside/useClickOutside';
 
 export type descriptionType = string | number | boolean;
 
@@ -25,6 +26,13 @@ const Main = () => {
    const [loading, setLoading] = useState(true);
    const [data, setData] = useState<ISetDate[]>([]);
    
+   const refButton = useRef<HTMLDivElement>(null);
+   // useClickOutside(refButton, () => {
+   //    if(filter) {
+   //       setTimeout(() => setFilter(!filter), 50)
+   //    }
+   // });
+
    // читаем данные из файла db.json
    const getProducts = async() => {
       try{
@@ -40,10 +48,30 @@ const Main = () => {
          return null;
       }
    };
+
+   function filterOf () {
+      setFilter(!filter);
+   } 
          
    useEffect(() => {
       getProducts();
-   }, []);
+
+      if(!filter){return}
+
+      const handleClick = (e: MouseEvent) => {
+         if(!refButton.current) return;
+         const target = e.target as EventTarget & HTMLButtonElement;
+         if (!refButton.current.contains(target)) {
+            setFilter(!filter);
+         }
+      }
+      
+      document.addEventListener('click', handleClick);
+
+      return () => {
+         document.removeEventListener("click", handleClick)
+      }
+   }, [refButton, filter]);
 
    return (
       <section className={styles.main}>
@@ -53,10 +81,13 @@ const Main = () => {
          <div className={styles.wrapper__decor}>
             <Decor />
          </div>
-         <main className={`${styles.main__general}`}>
+         <main
+            className={`${styles.main__general}`}
+            ref={refButton}
+            onClick={filterOf}
+         >
             <div
                className={styles.wrapper__button}
-               onClick={() => setFilter(!filter)}
             >
                <button className={styles.button}>
                   Фильтр
