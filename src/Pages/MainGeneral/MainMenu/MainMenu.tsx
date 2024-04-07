@@ -1,7 +1,7 @@
+import styles from './MainMenu.module.css';
 import { ISetDate } from '../MainGeneral';
 import MainCategories from './MainCategories/MainCategories';
 import MainNav from './MainNav/MainNav';
-import styles from './MainMenu.module.css';
 
 const MainMenu = ({data}: {data: Array<ISetDate>}) => {
 

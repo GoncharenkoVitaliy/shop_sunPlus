@@ -1,6 +1,6 @@
 import styles from './MainContent.module.css';
-import Spinner from '../../spinner/Spinner';
-import CardsProduct from '../../CardsProduct/CardsProduct';
+import Spinner from '../../../components/spinner/Spinner';
+import CardsProduct from '../../../components/CardsProduct/CardsProduct';
 import { ISetDate } from '../MainGeneral';
 
 

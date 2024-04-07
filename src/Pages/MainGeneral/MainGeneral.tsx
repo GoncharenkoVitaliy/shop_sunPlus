@@ -1,7 +1,7 @@
 import styles from './MainGeneral.module.css';
 import MainMenu from './MainMenu/MainMenu';
 import MainContent from './MainContent/MainContent';
-import Decor from '../Decor/Decor';
+import Decor from '../../components/Decor/Decor';
 import { useEffect, useState } from 'react';
 import MainCarousel from './MainCarousel/MainCarousel';
 
@@ -50,6 +50,9 @@ const Main = () => {
          <div className={styles.main__carousel}>
             <MainCarousel  data={data}/>
          </div>
+         <div className={styles.wrapper__decor}>
+            <Decor />
+         </div>
          <main className={`${styles.main__general}`}>
             <div
                className={styles.wrapper__button}
@@ -58,9 +61,6 @@ const Main = () => {
                <button className={styles.button}>
                   Фильтр
                </button>
-            </div>
-            <div className={styles.wrapper__decor}>
-               <Decor />
             </div>
             <div
                className={`

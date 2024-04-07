@@ -1,8 +1,8 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Footer from '../components/Footer/Footer';
-import Header from '../components/Header/Header';
-import Main from '../components/MainGeneral/MainGeneral';
+import Footer from '../Pages/Footer/Footer';
+import Header from '../Pages/Header/Header';
+import Main from '../Pages/MainGeneral/MainGeneral';
 import Contacts from '../Pages/Contacts/Contacts';
 import NoPage from '../Pages/NoPage/NoPage';
 import About from '../Pages/About/About';

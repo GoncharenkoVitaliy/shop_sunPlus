@@ -1,6 +1,6 @@
+import styles from './MainNav.module.css';
 import MainNavCategories from './MainNavCategories/MainNavCategories';
 import MainNavManufacturer from './MainNavManufacturer/MainNavManufacturer';
-import styles from './MainNav.module.css';
 
 const MainNav = ({data}: {data: Array<{manufacturer: string, categories: string}>}) => {
    const dataManufacturer: string[] = [...new Set(data.map((d) => d.manufacturer))];

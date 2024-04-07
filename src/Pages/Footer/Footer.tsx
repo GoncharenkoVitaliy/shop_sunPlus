@@ -1,5 +1,5 @@
-import HeaderAddress from '../Header/HeaderWrapper/HeaderAddress/HeaderAddress';
 import styles from './Footer.module.css';
+import HeaderAddress from '../../Pages/Header/HeaderWrapper/HeaderAddress/HeaderAddress';
 
 const Footer = () => {
    return (

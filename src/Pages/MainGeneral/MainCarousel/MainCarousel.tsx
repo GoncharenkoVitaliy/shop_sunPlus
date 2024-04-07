@@ -1,35 +1,41 @@
 import styles from './MainCarousel.module.css';
 import { ISetDate } from '../MainGeneral';
-import CardsProduct from '../../CardsProduct/CardsProduct';
-import React from 'react';
+import CardsProduct from '../../../components/CardsProduct/CardsProduct';
+import { useRef } from 'react';
 
-const MainCarousel = ({data}: {data: Array<ISetDate>}) => {
-   // console.log(data[0]['popular'])
+const MainCarousel = ({ data }: { data: Array<ISetDate> }) => {
+   const refContainerCard = useRef<HTMLDivElement>(null);
 
-   const prevBatton = (event: React.MouseEvent<HTMLButtonElement>) => {
-      console.log(event.target);
-   }
-   const nextButton = (event: React.MouseEvent<HTMLButtonElement>) => {
-      console.log(event.target);
-   }
+   const prevButton = () => { 
+      if (refContainerCard.current) {
+         refContainerCard.current.scrollLeft -= 250;
+      }
+   };
+
+   const nextButton = () => { 
+      if (refContainerCard.current) {
+         refContainerCard.current.scrollLeft += 250;
+      }
+   };
 
    return (
       <div className={styles.wrapper__carousel}>
          <button
             className={styles.prev__button}
-            onClick={prevBatton}
+            onClick={prevButton}
          >
             <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 -960 960 960" width="36"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
          </button>
-         <div className={styles.container__card}>
+         <div className={styles.container__card} ref={refContainerCard}>
             {data.map((d: ISetDate) => {
-               if(d["popular"] == true){
+               if (d["popular"] === true) {
                   return (
                      <div className={styles.card} key={d.id}>
                         <CardsProduct d={d}/>
                      </div>
                   )
                }
+               return null;
             })}
          </div>
          <button
@@ -42,4 +48,4 @@ const MainCarousel = ({data}: {data: Array<ISetDate>}) => {
    )
 }
 
-export default MainCarousel
+export default MainCarousel;

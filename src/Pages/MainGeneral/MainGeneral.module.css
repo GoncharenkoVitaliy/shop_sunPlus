@@ -1,9 +1,12 @@
 .main {
   padding: 0 30px;
+  position: relative;
   & .main__carousel{
-    /* z-index: 2; */
     position: relative;
     height: 350px;
+  }
+  & .wrapper__decor {
+    position: absolute;
   }
   & .main__general {
     position: relative;
@@ -13,17 +16,13 @@
     & .wrapper__button{
       display: none;
     }
-    & .wrapper__decor {
-      z-index: -1;
-    }
     & .wrapper__menu {
-      z-index: 1;
       padding: 0;
       flex: 1;
     }
   }
 }
-@media(max-width: 1010px){
+@media(max-width: 951px){
   .wrapper__decor {
     display: none;
   }
@@ -32,9 +31,9 @@
   .main {
     & .main__general {
       & .wrapper__button{
-        display:block;
+        display: block;
         position: absolute;
-        top: -35px;
+        top: -390px;
         left: 20px;
         & .button {
           font-size: 1.25rem;
@@ -65,22 +64,30 @@
       & .wrapper__menu{
         transition: all .4s linear;
         position: absolute;
-        top: 0;
+        top: -350px;
         right: 0;
         bottom: 0;
         left: -1200px;
-        z-index: 10;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
         background-color: var(--burger);
-        width: 100vw;
+        width: 110vw;
         padding-left: 30px;
         min-height: 100%;
       }
       & .active__wrapper_menu {
-        left: 0px;
+        left: -30px;
+      }
+    }
+  }
+}
+@media(max-width: 330px){
+  .main {
+    & .main__general {
+      & .wrapper__menu{
+        padding-left: 15px;
       }
     }
   }
