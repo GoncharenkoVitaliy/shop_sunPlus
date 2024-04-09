@@ -54,7 +54,7 @@
           content: '';
           width: 40px;
           height: 27px;
-          background: url(../images/menu/settings.png) no-repeat left/55%;
+          background: url(../../components/images/menu/settings.png) no-repeat left/55%;
           left: 0px;
           top: 50%;
           transform: translateY(-50%);
